@@ -1,0 +1,336 @@
+{
+   "materials" : [
+      {
+         "name" : "ActorMultiTexturePrepass",
+         "path" : "ActorMultiTexturePrepass"
+      },
+      {
+         "name" : "Stars",
+         "path" : "Stars"
+      },
+      {
+         "name" : "RenderChunk",
+         "path" : "RenderChunk"
+      },
+      {
+         "name" : "Gameface/StencilPath",
+         "path" : "GamefaceStencilPath"
+      },
+      {
+         "name" : "Gameface/Standard",
+         "path" : "GamefaceStandard"
+      },
+      {
+         "name" : "Gameface/StandardRare",
+         "path" : "GamefaceStandardRare"
+      },
+      {
+         "name" : "BlockSelectionOutline",
+         "path" : "BlockSelectionOutline"
+      },
+      {
+         "name" : "BlockOutlineSelection/Base",
+         "path" : "BlockOutlineSelection"
+      },
+      {
+         "name" : "BlockSelectionOverlayBlockEntity",
+         "path" : "BlockSelectionOverlayBlockEntity"
+      },
+      {
+         "name" : "FloatingPointClear",
+         "path" : "FloatingPointClear"
+      },
+      {
+         "name" : "CracksBlockEntity",
+         "path" : "CracksBlockEntity"
+      },
+      {
+         "name" : "BlitColor",
+         "path" : "BlitColor"
+      },
+      {
+         "name" : "Sky",
+         "path" : "Sky"
+      },
+      {
+         "name" : "Cracks",
+         "path" : "Cracks"
+      },
+      {
+         "name" : "Blit",
+         "path" : "Blit"
+      },
+      {
+         "name" : "Cubemap",
+         "path" : "Cubemap"
+      },
+      {
+         "name" : "DisplayMap",
+         "path" : "displaymap"
+      },
+      {
+         "name" : "ItemInHandTextured",
+         "path" : "ItemInHandTextured"
+      },
+      {
+         "name" : "Gameface/Renoir",
+         "path" : "GamefaceRenoir"
+      },
+      {
+         "name" : "BlockSelectionOverlay",
+         "path" : "BlockSelectionOverlay"
+      },
+      {
+         "name" : "SunMoon",
+         "path" : "SunMoon"
+      },
+      {
+         "name" : "EditorBlockVolumeWireframe",
+         "path" : "EditorBlockVolumeWireframe"
+      },
+      {
+         "name" : "Clouds",
+         "path" : "Clouds"
+      },
+      {
+         "name" : "ShadowOverlay",
+         "path" : "ShadowOverlay"
+      },
+      {
+         "name" : "Core/Screen/Blit",
+         "path" : "ScreenBlit"
+      },
+      {
+         "name" : "Gameface/ClearQuad",
+         "path" : "GamefaceClearQuad"
+      },
+      {
+         "name" : "FlameBillboard",
+         "path" : "FlameBillboard"
+      },
+      {
+         "name" : "Checkerboarding",
+         "path" : "Checkerboarding"
+      },
+      {
+         "name" : "EndPortal",
+         "path" : "EndPortal"
+      },
+      {
+         "name" : "ItemInHandColor",
+         "path" : "ItemInHandColor"
+      },
+      {
+         "name" : "Flipbook",
+         "path" : "Flipbook"
+      },
+      {
+         "name" : "LegacyCubemap",
+         "path" : "LegacyCubemap"
+      },
+      {
+         "name" : "Gameface/Path",
+         "path" : "GamefacePath"
+      },
+      {
+         "name" : "EditorBlockVolumeHull",
+         "path" : "EditorBlockVolumeHull"
+      },
+      {
+         "name" : "EndSky",
+         "path" : "EndSky"
+      },
+      {
+         "name" : "ShadowVolume",
+         "path" : "ShadowVolume"
+      },
+      {
+         "name" : "BeaconBeam",
+         "path" : "BeaconBeam"
+      },
+      {
+         "name" : "Debug/ImGui",
+         "path" : "ImGui"
+      },
+      {
+         "name" : "Gameface/Stencil",
+         "path" : "GamefaceStencil"
+      },
+      {
+         "name" : "Particle",
+         "path" : "Particle"
+      },
+      {
+         "name" : "Gameface/StandardBatched",
+         "path" : "GamefaceStandardBatched"
+      },
+      {
+         "name" : "UI/Blit",
+         "path" : "UIBlit"
+      },
+      {
+         "name" : "PostFX",
+         "path" : "PostFX"
+      },
+      {
+         "name" : "Gameface/StencilRare",
+         "path" : "GamefaceStencilRare"
+      },
+      {
+         "name" : "PrepassFallback",
+         "path" : "PrepassFallback"
+      },
+      {
+         "name" : "UI/Fill",
+         "path" : "UIFill"
+      },
+      {
+         "name" : "UI/Sprite",
+         "path" : "UISprite"
+      },
+      {
+         "name" : "Minecraft/Color",
+         "path" : "MinecraftColor"
+      },
+      {
+         "name" : "DeferredShading",
+         "path" : "DeferredShading"
+      },
+      {
+         "name" : "Gameface/TexturesWithColorMix",
+         "path" : "GamefaceTexturesWithColorMix"
+      },
+      {
+         "name" : "UI/Base",
+         "path" : "UIBase"
+      },
+      {
+         "name" : "StandardRed",
+         "path" : "StandardRed"
+      },
+      {
+         "name" : "PBR/Opaque",
+         "path" : "Basic"
+      },
+      {
+         "name" : "Core/Color",
+         "path" : "Color"
+      },
+      {
+         "name" : "Core/Screen/Mip",
+         "path" : "Mip"
+      },
+      {
+         "name" : "PostFX.ToneMapping",
+         "path" : "PostFX.Tonemapping"
+      },
+      {
+         "name" : "Debug/ScreenUV",
+         "path" : "ScreenUV"
+      },
+      {
+         "name" : "PostFX.Bloom",
+         "path" : "PostFX.Bloom"
+      },
+      {
+         "name" : "ItemInHandColorGlint",
+         "path" : "ItemInHandColorGlint"
+      },
+      {
+         "name" : "LightClustering",
+         "path" : "LightClustering"
+      },
+      {
+         "name" : "PostFX.Debug",
+         "path" : "PostFX.Debug"
+      },
+      {
+         "name" : "TDR",
+         "path" : "TDR"
+      },
+      {
+         "name" : "UI/Glint",
+         "path" : "UIGlint"
+      },
+      {
+         "name" : "UI/Text",
+         "path" : "UIText"
+      },
+      {
+         "name" : "Weather",
+         "path" : "Weather"
+      },
+      {
+         "name" : "PBR/BRDF",
+         "path" : "BRDF"
+      },
+      {
+         "name" : "MeshFallbackPosUVNormalColor",
+         "path" : "MeshFallbackPosUVNormalColor"
+      },
+      {
+         "name" : "Core/Builtins",
+         "path" : "Builtins"
+      },
+      {
+         "name" : "ItemInHandPrepassGlint",
+         "path" : "ItemInHandPrepassGlint"
+      },
+      {
+         "name" : "ItemInHandPrepass",
+         "path" : "ItemInHandPrepass"
+      },
+      {
+         "name" : "ItemInHandPrepassTextured",
+         "path" : "ItemInHandPrepassTextured"
+      },
+      {
+         "name" : "ActorTint",
+         "path" : "ActorTint"
+      },
+      {
+         "name" : "ActorGlint",
+         "path" : "ActorGlint"
+      },
+      {
+         "name" : "RenderChunkPrepass",
+         "path" : "RenderChunkPrepass"
+      },
+      {
+         "name" : "ActorBanner",
+         "path" : "ActorBanner"
+      },
+      {
+         "name" : "RTXStub",
+         "path" : "RTXStub"
+      },
+      {
+         "name" : "ActorGlintPrepass",
+         "path" : "ActorGlintPrepass"
+      },
+      {
+         "name" : "ActorTintPrepass",
+         "path" : "ActorTintPrepass"
+      },
+      {
+         "name" : "ActorMultiTexture",
+         "path" : "ActorMultiTexture"
+      },
+      {
+         "name" : "ActorBannerPrepass",
+         "path" : "ActorBannerPrepass"
+      },
+      {
+         "name" : "Entity",
+         "path" : "Entity"
+      },
+      {
+         "name" : "Actor",
+         "path" : "Actor"
+      },
+      {
+         "name" : "ActorPrepass",
+         "path" : "ActorPrepass"
+      }
+   ]
+}

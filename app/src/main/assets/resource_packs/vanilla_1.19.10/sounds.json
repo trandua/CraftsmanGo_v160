@@ -1,0 +1,71 @@
+{
+  "interactive_sounds": {
+    "block_sounds": {
+      "froglight": {
+        "events": {
+          "default": "",
+          "fall": {
+            "sounds": "step.froglight",
+            "volume": 0.4
+          },
+          "step": {
+            "sound": "step.froglight",
+            "volume": 0.17
+          },
+          "jump": {
+            "sound": "step.froglight",
+            "volume": 0.12
+          },
+          "land": {
+            "sound": "step.froglight",
+            "volume": 0.14
+          }
+        },
+        "volume": 1.0,
+        "pitch": 1.00
+      }
+    }
+  },
+  "entity_sounds": {
+    "entities": {
+      "trader_llama": {
+        "volume": 0.8,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.llama.idle",
+          "death": "mob.llama.death",
+          "hurt": "mob.llama.hurt",
+          "mad": "mob.llama.angry",
+          "shoot": "mob.llama.spit",
+          "step": {
+            "sound": "mob.llama.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          },
+          "armor": {
+            "sound": "mob.llama.swag",
+            "volume": 0.5,
+            "pitch": 1.0
+          },
+          "add.chest": {
+            "sound": "mob.horse.armor",
+            "volume": 1.0,
+            "pitch": [ 0.8, 1.2 ]
+          },
+          "eat": {
+            "sound": "mob.llama.eat",
+            "volume": [ 0.5, 1.5 ],
+            "pitch": [ 0.8, 1.2 ]
+          }
+        }
+      },
+      "wandering_trader": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "drink.milk": "mob.wanderingtrader.drink_milk"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "individual_event_sounds": {
+    "events": {
+	    "block.enchanting_table.use": { "sound": "block.enchanting_table.use", "volume": 1.0, "pitch": 1.0 }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "sign_oak_hanging": {
+      "textures": "textures/items/oak_hanging_sign"
+    },
+    "sign_spruce_hanging": {
+      "textures": "textures/items/spruce_hanging_sign"
+    },
+    "sign_birch_hanging": {
+      "textures": "textures/items/birch_hanging_sign"
+    },
+    "sign_jungle_hanging": {
+      "textures": "textures/items/jungle_hanging_sign"
+    },
+    "sign_acacia_hanging": {
+      "textures": "textures/items/acacia_hanging_sign"
+    },
+    "sign_darkoak_hanging": {
+      "textures": "textures/items/dark_oak_hanging_sign"
+    },
+    "sign_crimson_hanging": {
+      "textures": "textures/items/crimson_hanging_sign"
+    },
+    "sign_warped_hanging": {
+      "textures": "textures/items/warped_hanging_sign"
+    },
+    "sign_mangrove_hanging": {
+      "textures": "textures/items/mangrove_hanging_sign"
+    },
+    "sign_bamboo_hanging": {
+      "textures": "textures/items/bamboo_hanging_sign"
+    },
+    "bamboo_door": {
+      "textures": "textures/items/bamboo_door"
+    },
+    "bamboo_sign": {
+      "textures": "textures/items/bamboo_sign"
+    },
+    "boat": {
+      "textures": [
+        "textures/items/boat_oak",
+        "textures/items/boat_spruce",
+        "textures/items/boat_birch",
+        "textures/items/boat_jungle",
+        "textures/items/boat_acacia",
+        "textures/items/boat_darkoak",
+        "textures/items/mangrove_boat",
+        "textures/items/bamboo_raft"
+      ]
+    },
+    "chest_boat": {
+      "textures": [
+        "textures/items/oak_chest_boat",
+        "textures/items/spruce_chest_boat",
+        "textures/items/birch_chest_boat",
+        "textures/items/jungle_chest_boat",
+        "textures/items/acacia_chest_boat",
+        "textures/items/dark_oak_chest_boat",
+        "textures/items/mangrove_chest_boat",
+        "textures/items/bamboo_chest_raft"
+      ]
+    }
+  }
+}

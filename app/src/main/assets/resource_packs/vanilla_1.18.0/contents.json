@@ -1,0 +1,193 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "animations/shield.animation.json"
+        },
+        {
+            "path": "animation_controllers/axolotl.animation_controllers.json"
+        },
+        {
+            "path": "animation_controllers/shield.animation_controllers.json"
+        },
+        {
+            "path": "fogs/bamboo_jungle_fog_setting.json"
+        },
+        {
+            "path": "fogs/bamboo_jungle_hills_fog_setting.json"
+        },
+        {
+            "path": "fogs/birch_forest_fog_setting.json"
+        },
+        {
+            "path": "fogs/birch_forest_hills_fog_setting.json"
+        },
+        {
+            "path": "fogs/cold_beach_fog_setting.json"
+        },
+        {
+            "path": "fogs/cold_taiga_fog_setting.json"
+        },
+        {
+            "path": "fogs/cold_taiga_hills_fog_setting.json"
+        },
+        {
+            "path": "fogs/cold_taiga_mutated_fog_setting.json"
+        },
+        {
+            "path": "fogs/default_fog_setting.json"
+        },
+        {
+            "path": "fogs/desert_fog_setting.json"
+        },
+        {
+            "path": "fogs/desert_hills_fog_setting.json"
+        },
+        {
+            "path": "fogs/extreme_hills_edge_fog_setting.json"
+        },
+        {
+            "path": "fogs/extreme_hills_fog_setting.json"
+        },
+        {
+            "path": "fogs/extreme_hills_mutated_fog_setting.json"
+        },
+        {
+            "path": "fogs/extreme_hills_plus_trees_fog_setting.json"
+        },
+        {
+            "path": "fogs/extreme_hills_plus_trees_mutated_fog_setting.json"
+        },
+        {
+            "path": "fogs/flower_forest_fog_setting.json"
+        },
+        {
+            "path": "fogs/forest_fog_setting.json"
+        },
+        {
+            "path": "fogs/forest_hills_fog_setting.json"
+        },
+        {
+            "path": "fogs/frozen_river_fog_setting.json"
+        },
+        {
+            "path": "fogs/ice_mountains_fog_setting.json"
+        },
+        {
+            "path": "fogs/ice_plains_fog_setting.json"
+        },
+        {
+            "path": "fogs/ice_plains_spikes_fog_setting.json"
+        },
+        {
+            "path": "fogs/jungle_edge_fog_setting.json"
+        },
+        {
+            "path": "fogs/jungle_fog_setting.json"
+        },
+        {
+            "path": "fogs/jungle_hills_fog_setting.json"
+        },
+        {
+            "path": "fogs/jungle_mutated_fog_setting.json"
+        },
+        {
+            "path": "fogs/mega_spruce_taiga_fog_setting.json"
+        },
+        {
+            "path": "fogs/mega_spruse_taiga_mutated_fog_setting.json"
+        },
+        {
+            "path": "fogs/mega_taiga_fog_setting.json"
+        },
+        {
+            "path": "fogs/mega_taiga_hills_fog_setting.json"
+        },
+        {
+            "path": "fogs/mega_taiga_mutated_fog_setting.json"
+        },
+        {
+            "path": "fogs/mesa_bryce_fog_setting.json"
+        },
+        {
+            "path": "fogs/mesa_fog_setting.json"
+        },
+        {
+            "path": "fogs/mesa_mutated_fog_setting.json"
+        },
+        {
+            "path": "fogs/mesa_plateau_fog_setting.json"
+        },
+        {
+            "path": "fogs/mesa_plateau_stone_fog_setting.json"
+        },
+        {
+            "path": "fogs/mushroom_island_fog_setting.json"
+        },
+        {
+            "path": "fogs/mushroom_island_shore_fog_setting.json"
+        },
+        {
+            "path": "fogs/plains_fog_setting.json"
+        },
+        {
+            "path": "fogs/river_fog_setting.json"
+        },
+        {
+            "path": "fogs/roofed_forest_fog_setting.json"
+        },
+        {
+            "path": "fogs/savanna_fog_setting.json"
+        },
+        {
+            "path": "fogs/savanna_mutated_fog_setting.json"
+        },
+        {
+            "path": "fogs/savanna_plateau_fog_setting.json"
+        },
+        {
+            "path": "fogs/stone_beach_fog_setting.json"
+        },
+        {
+            "path": "fogs/sunflower_plains_fog_setting.json"
+        },
+        {
+            "path": "fogs/swampland_fog_setting.json"
+        },
+        {
+            "path": "fogs/swampland_mutated_fog_setting.json"
+        },
+        {
+            "path": "fogs/taiga_fog_setting.json"
+        },
+        {
+            "path": "fogs/taiga_hills_fog_setting.json"
+        },
+        {
+            "path": "fogs/taiga_mutated_fog_setting.json"
+        },
+        {
+            "path": "particles/rain_splash.json"
+        },
+        {
+            "path": "sounds/music_definitions.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        },
+        {
+            "path": "textures/item_texture.json"
+        },
+        {
+            "path": "textures/textures_list.json"
+        },
+        {
+            "path": "textures/items/record_otherside.png"
+        }
+    ]
+}

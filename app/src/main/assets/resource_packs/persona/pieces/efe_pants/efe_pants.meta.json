@@ -1,0 +1,10 @@
+{
+	"piece_id": "c20ee35a-8013-0057-692f-35ec4d77d6ed",
+	"piece_name": "efe_pants",
+	"piece_type": "persona_high_pants",
+	"texture_sources": [
+		{
+			"texture": "efe_pants.png"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Experimental resource pack for next major update",
+		"description": "Experimental resource pack for next major update content",
+		"uuid": "46920161-d961-4a1c-b14a-8efc5e26eb30",
+		"version": [ 0, 0, 1 ],
+		"min_engine_version": [ 1, 19, 0 ]
+	},
+	"modules": [
+		{
+			"description": "Experimental resource pack for next major update",
+			"version": [ 0, 0, 1 ],
+			"uuid": "bd674920-73f8-4c1b-aa21-d418cbb6f847",
+			"type": "resources"
+		}
+	]
+}

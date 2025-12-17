@@ -1,0 +1,589 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "animations/axolotl.animation.json"
+        },
+        {
+            "path": "animations/bow.animation.json"
+        },
+        {
+            "path": "animations/goat.animation.json"
+        },
+        {
+            "path": "animations/humanoid.animation.json"
+        },
+        {
+            "path": "animations/player_firstperson.animation.json"
+        },
+        {
+            "path": "animations/spyglass.animation.json"
+        },
+        {
+            "path": "animation_controllers/axolotl.animation_controllers.json"
+        },
+        {
+            "path": "animation_controllers/goat.animation_controllers.json"
+        },
+        {
+            "path": "animation_controllers/humanoid.animation_controllers.json"
+        },
+        {
+            "path": "animation_controllers/player.animation_controllers.json"
+        },
+        {
+            "path": "attachables/spyglass.json"
+        },
+        {
+            "path": "entity/axolotl.entity.json"
+        },
+        {
+            "path": "entity/glow_squid.entity.json"
+        },
+        {
+            "path": "entity/goat.entity.json"
+        },
+        {
+            "path": "entity/minecart.entity.json"
+        },
+        {
+            "path": "entity/player.entity.json"
+        },
+        {
+            "path": "fogs/powder_snow_fog_setting.json"
+        },
+        {
+            "path": "items/glow_berries.json"
+        },
+        {
+            "path": "models/entity/axolotl.geo.json"
+        },
+        {
+            "path": "models/entity/glow_squid.geo.json"
+        },
+        {
+            "path": "models/entity/goat.geo.json"
+        },
+        {
+            "path": "models/entity/spyglass.geo.json"
+        },
+        {
+            "path": "models/entity/squid.geo.json"
+        },
+        {
+            "path": "particles/crop_growth.json"
+        },
+        {
+            "path": "particles/crop_growth_area.json"
+        },
+        {
+            "path": "particles/dripstone_lava_drip.json"
+        },
+        {
+            "path": "particles/dripstone_water_drip.json"
+        },
+        {
+            "path": "particles/electric_spark.json"
+        },
+        {
+            "path": "particles/glow.json"
+        },
+        {
+            "path": "particles/ink.json"
+        },
+        {
+            "path": "particles/snowflake.json"
+        },
+        {
+            "path": "particles/spore_blossom_ambient_block_actor.json"
+        },
+        {
+            "path": "particles/spore_blossom_shower.json"
+        },
+        {
+            "path": "particles/wax.json"
+        },
+        {
+            "path": "render_controllers/axolotl.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/glow_squid.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/goat.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/item_default.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/player.render_controllers.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        },
+        {
+            "path": "textures/item_texture.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        },
+        {
+            "path": "textures/textures_list.json"
+        },
+        {
+            "path": "textures/blocks/amethyst_block.png"
+        },
+        {
+            "path": "textures/blocks/amethyst_cluster.png"
+        },
+        {
+            "path": "textures/blocks/azalea_leaves.png"
+        },
+        {
+            "path": "textures/blocks/azalea_leaves_flowers.png"
+        },
+        {
+            "path": "textures/blocks/azalea_leaves_flowers_opaque.png"
+        },
+        {
+            "path": "textures/blocks/azalea_leaves_opaque.png"
+        },
+        {
+            "path": "textures/blocks/azalea_plant.png"
+        },
+        {
+            "path": "textures/blocks/azalea_side.png"
+        },
+        {
+            "path": "textures/blocks/azalea_top.png"
+        },
+        {
+            "path": "textures/blocks/big_dripleaf_side1.png"
+        },
+        {
+            "path": "textures/blocks/big_dripleaf_side2.png"
+        },
+        {
+            "path": "textures/blocks/big_dripleaf_stem.png"
+        },
+        {
+            "path": "textures/blocks/big_dripleaf_top.png"
+        },
+        {
+            "path": "textures/blocks/blackstone.png"
+        },
+        {
+            "path": "textures/blocks/budding_amethyst.png"
+        },
+        {
+            "path": "textures/blocks/calcite.png"
+        },
+        {
+            "path": "textures/blocks/cave_vines_body.png"
+        },
+        {
+            "path": "textures/blocks/cave_vines_body_berries.png"
+        },
+        {
+            "path": "textures/blocks/cave_vines_head.png"
+        },
+        {
+            "path": "textures/blocks/cave_vines_head_berries.png"
+        },
+        {
+            "path": "textures/blocks/coal_ore.png"
+        },
+        {
+            "path": "textures/blocks/copper_block.png"
+        },
+        {
+            "path": "textures/blocks/copper_ore.png"
+        },
+        {
+            "path": "textures/blocks/cracked_polished_blackstone_bricks.png"
+        },
+        {
+            "path": "textures/blocks/crafting_table_front.png"
+        },
+        {
+            "path": "textures/blocks/crafting_table_side.png"
+        },
+        {
+            "path": "textures/blocks/cut_copper.png"
+        },
+        {
+            "path": "textures/blocks/diamond_ore.png"
+        },
+        {
+            "path": "textures/blocks/dirt_with_roots.png"
+        },
+        {
+            "path": "textures/blocks/dripstone_block.png"
+        },
+        {
+            "path": "textures/blocks/emerald_ore.png"
+        },
+        {
+            "path": "textures/blocks/exposed_copper.png"
+        },
+        {
+            "path": "textures/blocks/exposed_cut_copper.png"
+        },
+        {
+            "path": "textures/blocks/flowering_azalea_side.png"
+        },
+        {
+            "path": "textures/blocks/flowering_azalea_top.png"
+        },
+        {
+            "path": "textures/blocks/gilded_blackstone.png"
+        },
+        {
+            "path": "textures/blocks/glow_item_frame.png"
+        },
+        {
+            "path": "textures/blocks/glow_lichen.png"
+        },
+        {
+            "path": "textures/blocks/gold_ore.png"
+        },
+        {
+            "path": "textures/blocks/grass_block_snow.png"
+        },
+        {
+            "path": "textures/blocks/hanging_roots.png"
+        },
+        {
+            "path": "textures/blocks/iron_ore.png"
+        },
+        {
+            "path": "textures/blocks/lapis_ore.png"
+        },
+        {
+            "path": "textures/blocks/large_amethyst_bud.png"
+        },
+        {
+            "path": "textures/blocks/lightning_rod.png"
+        },
+        {
+            "path": "textures/blocks/medium_amethyst_bud.png"
+        },
+        {
+            "path": "textures/blocks/moss_block.png"
+        },
+        {
+            "path": "textures/blocks/oxidized_copper.png"
+        },
+        {
+            "path": "textures/blocks/oxidized_cut_copper.png"
+        },
+        {
+            "path": "textures/blocks/pointed_dripstone_down_base.png"
+        },
+        {
+            "path": "textures/blocks/pointed_dripstone_down_frustum.png"
+        },
+        {
+            "path": "textures/blocks/pointed_dripstone_down_merge.png"
+        },
+        {
+            "path": "textures/blocks/pointed_dripstone_down_middle.png"
+        },
+        {
+            "path": "textures/blocks/pointed_dripstone_down_tip.png"
+        },
+        {
+            "path": "textures/blocks/pointed_dripstone_up_base.png"
+        },
+        {
+            "path": "textures/blocks/pointed_dripstone_up_frustum.png"
+        },
+        {
+            "path": "textures/blocks/pointed_dripstone_up_merge.png"
+        },
+        {
+            "path": "textures/blocks/pointed_dripstone_up_middle.png"
+        },
+        {
+            "path": "textures/blocks/pointed_dripstone_up_tip.png"
+        },
+        {
+            "path": "textures/blocks/polished_blackstone_bricks.png"
+        },
+        {
+            "path": "textures/blocks/powder_snow.png"
+        },
+        {
+            "path": "textures/blocks/quartz_block_side.png"
+        },
+        {
+            "path": "textures/blocks/quartz_block_top.png"
+        },
+        {
+            "path": "textures/blocks/raw_copper_block.png"
+        },
+        {
+            "path": "textures/blocks/raw_gold_block.png"
+        },
+        {
+            "path": "textures/blocks/raw_iron_block.png"
+        },
+        {
+            "path": "textures/blocks/redstone_ore.png"
+        },
+        {
+            "path": "textures/blocks/small_amethyst_bud.png"
+        },
+        {
+            "path": "textures/blocks/small_dripleaf_side.png"
+        },
+        {
+            "path": "textures/blocks/small_dripleaf_stem_bottom.png"
+        },
+        {
+            "path": "textures/blocks/small_dripleaf_stem_top.png"
+        },
+        {
+            "path": "textures/blocks/small_dripleaf_top.png"
+        },
+        {
+            "path": "textures/blocks/smoker_top.png"
+        },
+        {
+            "path": "textures/blocks/smooth_basalt.png"
+        },
+        {
+            "path": "textures/blocks/spore_blossom.png"
+        },
+        {
+            "path": "textures/blocks/spore_blossom_base.png"
+        },
+        {
+            "path": "textures/blocks/tinted_glass.png"
+        },
+        {
+            "path": "textures/blocks/tuff.png"
+        },
+        {
+            "path": "textures/blocks/weathered_copper.png"
+        },
+        {
+            "path": "textures/blocks/weathered_cut_copper.png"
+        },
+        {
+            "path": "textures/blocks/weeping_vines.png"
+        },
+        {
+            "path": "textures/blocks/weeping_vines_plant.png"
+        },
+        {
+            "path": "textures/blocks/deepslate/chiseled_deepslate.png"
+        },
+        {
+            "path": "textures/blocks/deepslate/cobbled_deepslate.png"
+        },
+        {
+            "path": "textures/blocks/deepslate/cracked_deepslate_bricks.png"
+        },
+        {
+            "path": "textures/blocks/deepslate/cracked_deepslate_tiles.png"
+        },
+        {
+            "path": "textures/blocks/deepslate/deepslate.png"
+        },
+        {
+            "path": "textures/blocks/deepslate/deepslate_bricks.png"
+        },
+        {
+            "path": "textures/blocks/deepslate/deepslate_coal_ore.png"
+        },
+        {
+            "path": "textures/blocks/deepslate/deepslate_copper_ore.png"
+        },
+        {
+            "path": "textures/blocks/deepslate/deepslate_diamond_ore.png"
+        },
+        {
+            "path": "textures/blocks/deepslate/deepslate_emerald_ore.png"
+        },
+        {
+            "path": "textures/blocks/deepslate/deepslate_gold_ore.png"
+        },
+        {
+            "path": "textures/blocks/deepslate/deepslate_iron_ore.png"
+        },
+        {
+            "path": "textures/blocks/deepslate/deepslate_lapis_ore.png"
+        },
+        {
+            "path": "textures/blocks/deepslate/deepslate_redstone_ore.png"
+        },
+        {
+            "path": "textures/blocks/deepslate/deepslate_tiles.png"
+        },
+        {
+            "path": "textures/blocks/deepslate/deepslate_top.png"
+        },
+        {
+            "path": "textures/blocks/deepslate/polished_deepslate.png"
+        },
+        {
+            "path": "textures/entity/guardian.png"
+        },
+        {
+            "path": "textures/entity/guardian_elder.png"
+        },
+        {
+            "path": "textures/entity/sign.png"
+        },
+        {
+            "path": "textures/entity/sign_acacia.png"
+        },
+        {
+            "path": "textures/entity/sign_birch.png"
+        },
+        {
+            "path": "textures/entity/sign_darkoak.png"
+        },
+        {
+            "path": "textures/entity/sign_jungle.png"
+        },
+        {
+            "path": "textures/entity/sign_spruce.png"
+        },
+        {
+            "path": "textures/entity/spyglass.png"
+        },
+        {
+            "path": "textures/entity/axolotl/axolotl_blue.png"
+        },
+        {
+            "path": "textures/entity/axolotl/axolotl_cyan.png"
+        },
+        {
+            "path": "textures/entity/axolotl/axolotl_gold.png"
+        },
+        {
+            "path": "textures/entity/axolotl/axolotl_lucy.png"
+        },
+        {
+            "path": "textures/entity/axolotl/axolotl_wild.png"
+        },
+        {
+            "path": "textures/entity/glow_squid/glow_squid.tga"
+        },
+        {
+            "path": "textures/entity/goat/goat.png"
+        },
+        {
+            "path": "textures/items/amethyst_shard.png"
+        },
+        {
+            "path": "textures/items/bucket_axolotl.png"
+        },
+        {
+            "path": "textures/items/bucket_powder_snow.png"
+        },
+        {
+            "path": "textures/items/clock_item.png"
+        },
+        {
+            "path": "textures/items/compass_atlas.png"
+        },
+        {
+            "path": "textures/items/compass_item.png"
+        },
+        {
+            "path": "textures/items/copper_ingot.png"
+        },
+        {
+            "path": "textures/items/door_jungle.png"
+        },
+        {
+            "path": "textures/items/dried_kelp.png"
+        },
+        {
+            "path": "textures/items/dye_powder_glow.png"
+        },
+        {
+            "path": "textures/items/egg_glow_squid.png"
+        },
+        {
+            "path": "textures/items/glow_berries.png"
+        },
+        {
+            "path": "textures/items/glow_item_frame.png"
+        },
+        {
+            "path": "textures/items/hanging_roots.png"
+        },
+        {
+            "path": "textures/items/netherite_axe.png"
+        },
+        {
+            "path": "textures/items/netherite_boots.png"
+        },
+        {
+            "path": "textures/items/netherite_hoe.png"
+        },
+        {
+            "path": "textures/items/netherite_ingot.png"
+        },
+        {
+            "path": "textures/items/netherite_pickaxe.png"
+        },
+        {
+            "path": "textures/items/netherite_sword.png"
+        },
+        {
+            "path": "textures/items/raw_copper.png"
+        },
+        {
+            "path": "textures/items/raw_gold.png"
+        },
+        {
+            "path": "textures/items/raw_iron.png"
+        },
+        {
+            "path": "textures/items/reeds.png"
+        },
+        {
+            "path": "textures/items/sign.png"
+        },
+        {
+            "path": "textures/items/sign_acacia.png"
+        },
+        {
+            "path": "textures/items/sign_birch.png"
+        },
+        {
+            "path": "textures/items/sign_darkoak.png"
+        },
+        {
+            "path": "textures/items/sign_jungle.png"
+        },
+        {
+            "path": "textures/items/sign_spruce.png"
+        },
+        {
+            "path": "textures/items/spyglass.png"
+        },
+        {
+            "path": "textures/items/watch_atlas.png"
+        },
+        {
+            "path": "textures/painting/kz.png"
+        },
+        {
+            "path": "textures/particle/particles.png"
+        }
+    ]
+}

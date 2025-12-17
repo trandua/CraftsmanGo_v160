@@ -1,0 +1,10 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "textures/entity/glow_squid/glow_squid.tga"
+        }
+    ]
+}

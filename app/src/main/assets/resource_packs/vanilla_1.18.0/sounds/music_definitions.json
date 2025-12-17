@@ -1,0 +1,42 @@
+{
+    "dripstone_caves": {
+        "event_name": "music.game.dripstone_caves",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "grove": {
+        "event_name": "music.game.grove",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "jagged_peaks": {
+        "event_name": "music.game.jagged_peaks",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "lush_caves": {
+        "event_name": "music.game.lush_caves",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "meadow": {
+        "event_name": "music.game.meadow",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "frozen_peaks": {
+        "event_name": "music.game.frozen_peaks",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "snowy_slopes": {
+        "event_name": "music.game.snowy_slopes",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "stony_peaks": {
+        "event_name": "music.game.stony_peaks",
+        "min_delay": 60,
+        "max_delay": 180
+    }
+}

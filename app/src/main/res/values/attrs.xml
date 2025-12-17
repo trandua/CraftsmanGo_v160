@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="iconSymbolSize" format="dimension" />
+    <attr name="iconSymbolTypefaceSource" format="string" />
+    <attr name="typefaceSource" format="string" />
+    <attr name="selectedState" format="integer" />
+    <attr name="isUnderlined" format="boolean" />
+    <attr name="state" format="integer" />
+    <attr name="text" format="string" />
+    <attr name="textStyle" format="reference" />
+    <attr name="textTypefaceSource" format="string" />
+    <attr name="subText" format="string" />
+    <attr name="subTextStyle" format="reference" />
+    <attr name="subTextTypefaceSource" format="string" />
+    <attr name="text_subtitle" format="reference|string" />
+    <attr name="text_title" format="reference|string" />
+    <attr name="icon_uri" format="reference|string" />
+    <attr name="icon_bg" format="color" />
+    <attr name="icon_checked" format="reference|string" />
+    <attr name="icon_unchecked" format="reference|string" />
+    <attr name="text_checked" format="reference|string" />
+    <attr name="text_unchecked" format="reference|string" />
+    <attr name="icon_size" format="dimension" />
+
+    <declare-styleable name="styleable">
+        <!-- any custom attributes -->
+        <attr name="CardView_android_minHeight" format="integer" />
+        <attr name="CardView_android_minWidth" format="integer" />
+        <attr name="CardView_cardBackgroundColor" format="integer" />
+        <attr name="CardView_cardCornerRadius" format="integer" />
+        <attr name="CardView_cardElevation" format="integer" />
+        <attr name="CardView_cardMaxElevation" format="integer" />
+        <attr name="CardView_cardPreventCornerOverlap" format="integer" />
+        <attr name="CardView_cardUseCompatPadding" format="integer" />
+        <attr name="CardView_contentPadding" format="integer" />
+        <attr name="CardView_contentPaddingBottom" format="integer" />
+        <attr name="CardView_contentPaddingLeft" format="integer" />
+        <attr name="CardView_contentPaddingRight" format="integer" />
+        <attr name="CardView_contentPaddingTop" format="integer" />
+        <attr name="CustomTypeface_deleteOnActivityDestroyOrTombstone" format="integer" />
+        <attr name="CustomTypeface_typefaceSource" format="integer" />
+        <attr name="CustomTypeface_uppercaseText" format="integer" />
+        <attr name="IconFontSubTextButton_icon_bg" format="integer" />
+        <attr name="IconFontSubTextButton_icon_uri" format="integer" />
+        <attr name="IconFontSubTextButton_text_subtitle" format="integer" />
+        <attr name="IconFontSubTextButton_text_title" format="integer" />
+        <attr name="IconFontToggleButton_icon_checked" format="integer" />
+        <attr name="IconFontToggleButton_icon_size" format="integer" />
+    </declare-styleable>
+    <attr name="fontProviderSystemFontFamily" format="string" />
+    <attr name="actionBarTabBarStyle" format="reference" />
+</resources>

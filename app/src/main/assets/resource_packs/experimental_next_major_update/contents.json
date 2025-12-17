@@ -1,0 +1,304 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "animations/camel.animation.json"
+        },
+        {
+            "path": "animation_controllers/camel.animation_controllers.json"
+        },
+        {
+            "path": "entity/boat.entity.json"
+        },
+        {
+            "path": "entity/camel.entity.json"
+        },
+        {
+            "path": "entity/chest_boat.entity.json"
+        },
+        {
+            "path": "materials/entity.material"
+        },
+        {
+            "path": "models/entity/camel.geo.json"
+        },
+        {
+            "path": "render_controllers/camel.render_controllers.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        },
+        {
+            "path": "texts/bg_BG.lang"
+        },
+        {
+            "path": "texts/cs_CZ.lang"
+        },
+        {
+            "path": "texts/da_DK.lang"
+        },
+        {
+            "path": "texts/de_DE.lang"
+        },
+        {
+            "path": "texts/el_GR.lang"
+        },
+        {
+            "path": "texts/en_GB.lang"
+        },
+        {
+            "path": "texts/en_US.lang"
+        },
+        {
+            "path": "texts/es_ES.lang"
+        },
+        {
+            "path": "texts/es_MX.lang"
+        },
+        {
+            "path": "texts/fi_FI.lang"
+        },
+        {
+            "path": "texts/fr_CA.lang"
+        },
+        {
+            "path": "texts/fr_FR.lang"
+        },
+        {
+            "path": "texts/hu_HU.lang"
+        },
+        {
+            "path": "texts/id_ID.lang"
+        },
+        {
+            "path": "texts/it_IT.lang"
+        },
+        {
+            "path": "texts/ja_JP.lang"
+        },
+        {
+            "path": "texts/ko_KR.lang"
+        },
+        {
+            "path": "texts/nb_NO.lang"
+        },
+        {
+            "path": "texts/nl_NL.lang"
+        },
+        {
+            "path": "texts/pl_PL.lang"
+        },
+        {
+            "path": "texts/pt_BR.lang"
+        },
+        {
+            "path": "texts/pt_PT.lang"
+        },
+        {
+            "path": "texts/ru_RU.lang"
+        },
+        {
+            "path": "texts/sk_SK.lang"
+        },
+        {
+            "path": "texts/sv_SE.lang"
+        },
+        {
+            "path": "texts/tr_TR.lang"
+        },
+        {
+            "path": "texts/uk_UA.lang"
+        },
+        {
+            "path": "texts/zh_CN.lang"
+        },
+        {
+            "path": "texts/zh_TW.lang"
+        },
+        {
+            "path": "textures/item_texture.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        },
+        {
+            "path": "textures/textures_list.json"
+        },
+        {
+            "path": "textures/blocks/bamboo_door_bottom.png"
+        },
+        {
+            "path": "textures/blocks/bamboo_door_top.png"
+        },
+        {
+            "path": "textures/blocks/bamboo_fence.png"
+        },
+        {
+            "path": "textures/blocks/bamboo_fence_gate.png"
+        },
+        {
+            "path": "textures/blocks/bamboo_mosaic.png"
+        },
+        {
+            "path": "textures/blocks/bamboo_planks.png"
+        },
+        {
+            "path": "textures/blocks/bamboo_trapdoor.png"
+        },
+        {
+            "path": "textures/blocks/chiseled_bookshelf_side.png"
+        },
+        {
+            "path": "textures/blocks/chiseled_bookshelf_stage0.png"
+        },
+        {
+            "path": "textures/blocks/chiseled_bookshelf_stage1.png"
+        },
+        {
+            "path": "textures/blocks/chiseled_bookshelf_stage2.png"
+        },
+        {
+            "path": "textures/blocks/chiseled_bookshelf_stage3.png"
+        },
+        {
+            "path": "textures/blocks/chiseled_bookshelf_stage4.png"
+        },
+        {
+            "path": "textures/blocks/chiseled_bookshelf_stage5.png"
+        },
+        {
+            "path": "textures/blocks/chiseled_bookshelf_stage6.png"
+        },
+        {
+            "path": "textures/blocks/chiseled_bookshelf_top.png"
+        },
+        {
+            "path": "textures/entity/acacia_hanging_sign.png"
+        },
+        {
+            "path": "textures/entity/bamboo_hanging_sign.png"
+        },
+        {
+            "path": "textures/entity/bamboo_sign.png"
+        },
+        {
+            "path": "textures/entity/birch_hanging_sign.png"
+        },
+        {
+            "path": "textures/entity/crimson_hanging_sign.png"
+        },
+        {
+            "path": "textures/entity/dark_oak_hanging_sign.png"
+        },
+        {
+            "path": "textures/entity/jungle_hanging_sign.png"
+        },
+        {
+            "path": "textures/entity/mangrove_hanging_sign.png"
+        },
+        {
+            "path": "textures/entity/oak_hanging_sign.png"
+        },
+        {
+            "path": "textures/entity/spruce_hanging_sign.png"
+        },
+        {
+            "path": "textures/entity/warped_hanging_sign.png"
+        },
+        {
+            "path": "textures/entity/boat/bamboo_raft.png"
+        },
+        {
+            "path": "textures/entity/boat/chest_boat_bamboo.png"
+        },
+        {
+            "path": "textures/entity/camel/camel.png"
+        },
+        {
+            "path": "textures/items/acacia_hanging_sign.png"
+        },
+        {
+            "path": "textures/items/bamboo_chest_raft.png"
+        },
+        {
+            "path": "textures/items/bamboo_door.png"
+        },
+        {
+            "path": "textures/items/bamboo_hanging_sign.png"
+        },
+        {
+            "path": "textures/items/bamboo_raft.png"
+        },
+        {
+            "path": "textures/items/bamboo_sign.png"
+        },
+        {
+            "path": "textures/items/birch_hanging_sign.png"
+        },
+        {
+            "path": "textures/items/crimson_hanging_sign.png"
+        },
+        {
+            "path": "textures/items/dark_oak_hanging_sign.png"
+        },
+        {
+            "path": "textures/items/jungle_hanging_sign.png"
+        },
+        {
+            "path": "textures/items/mangrove_hanging_sign.png"
+        },
+        {
+            "path": "textures/items/oak_hanging_sign.png"
+        },
+        {
+            "path": "textures/items/spruce_hanging_sign.png"
+        },
+        {
+            "path": "textures/items/warped_hanging_sign.png"
+        },
+        {
+            "path": "textures/ui/bamboo_sign.png"
+        },
+        {
+            "path": "textures/ui/dash_cooldown.png"
+        },
+        {
+            "path": "textures/ui/hanging_sign.png"
+        },
+        {
+            "path": "textures/ui/hanging_sign_acacia.png"
+        },
+        {
+            "path": "textures/ui/hanging_sign_bamboo.png"
+        },
+        {
+            "path": "textures/ui/hanging_sign_birch.png"
+        },
+        {
+            "path": "textures/ui/hanging_sign_crimson.png"
+        },
+        {
+            "path": "textures/ui/hanging_sign_darkoak.png"
+        },
+        {
+            "path": "textures/ui/hanging_sign_jungle.png"
+        },
+        {
+            "path": "textures/ui/hanging_sign_mangrove.png"
+        },
+        {
+            "path": "textures/ui/hanging_sign_spruce.png"
+        },
+        {
+            "path": "textures/ui/hanging_sign_warped.png"
+        }
+    ]
+}

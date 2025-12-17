@@ -1,0 +1,28 @@
+package com.microsoft.xbox.toolkit;
+
+
+/* loaded from: classes3.dex */
+public class XLEMemoryCacheEntry<V> {
+    private int byteCount;
+    private V data;
+
+    public XLEMemoryCacheEntry(V v, int i) {
+        if (v == null) {
+            throw new IllegalArgumentException("data");
+        }
+        if (i > 0) {
+            this.data = v;
+            this.byteCount = i;
+            return;
+        }
+        throw new IllegalArgumentException("byteCount");
+    }
+
+    public int getByteCount() {
+        return this.byteCount;
+    }
+
+    public V getValue() {
+        return this.data;
+    }
+}

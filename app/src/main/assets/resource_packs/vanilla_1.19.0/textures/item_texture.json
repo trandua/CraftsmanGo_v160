@@ -1,0 +1,64 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "bucket": {
+      "textures": [
+        "textures/items/bucket_empty",
+        "textures/items/bucket_milk",
+        "textures/items/bucket_water",
+        "textures/items/bucket_lava",
+        "textures/items/bucket_cod",
+        "textures/items/bucket_salmon",
+        "textures/items/bucket_tropical",
+        "textures/items/bucket_pufferfish",
+        "textures/items/bucket_powder_snow",
+        "textures/items/bucket_axolotl",
+        "textures/items/bucket_tadpole"
+      ]
+    },
+    "mangrove_door": {
+      "textures": "textures/items/mangrove_door"
+    },
+    "mangrove_sign": {
+      "textures": "textures/items/mangrove_sign"
+    },
+    "boat": {
+      "textures": [
+        "textures/items/boat_oak",
+        "textures/items/boat_spruce",
+        "textures/items/boat_birch",
+        "textures/items/boat_jungle",
+        "textures/items/boat_acacia",
+        "textures/items/boat_darkoak",
+        "textures/items/mangrove_boat"
+      ]
+    },
+    "chest_boat": {
+      "textures": [
+        "textures/items/oak_chest_boat",
+        "textures/items/spruce_chest_boat",
+        "textures/items/birch_chest_boat",
+        "textures/items/jungle_chest_boat",
+        "textures/items/acacia_chest_boat",
+        "textures/items/dark_oak_chest_boat",
+        "textures/items/mangrove_chest_boat"
+      ]
+    },
+    "recovery_compass": {
+      "textures": "textures/items/recovery_compass_item"
+    },
+    "echo_shard": {
+      "textures": "textures/items/echo_shard"
+    },
+	"goat_horn": {
+      "textures": "textures/items/goat_horn"
+    },
+    "record_5": {
+      "textures": "textures/items/record_5"
+    },
+    "disc_fragment_5": {
+      "textures": "textures/items/disc_fragment_5"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "animations/vex.animation.json"
+        },
+        {
+            "path": "animation_controllers/bee.animation_controllers.json"
+        },
+        {
+            "path": "animation_controllers/vex.animation_controllers.json"
+        },
+        {
+            "path": "entity/player.entity.json"
+        },
+        {
+            "path": "entity/vex.entity.json"
+        },
+        {
+            "path": "models/entity/vex.geo.json"
+        },
+        {
+            "path": "render_controllers/bee.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/cape.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/persona.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/player.render_controllers.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        },
+        {
+            "path": "textures/textures_list.json"
+        },
+        {
+            "path": "textures/entity/vex/vex.png"
+        },
+        {
+            "path": "textures/entity/vex/vex_charging.png"
+        }
+    ]
+}

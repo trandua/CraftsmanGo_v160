@@ -1,0 +1,52 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "animations/allay.animation.json"
+        },
+        {
+            "path": "animations/humanoid.animation.json"
+        },
+        {
+            "path": "animations/player_firstperson.animation.json"
+        },
+        {
+            "path": "animations/warden.animation.json"
+        },
+        {
+            "path": "animation_controllers/allay.animation_controllers.json"
+        },
+        {
+            "path": "animation_controllers/player.animation_controllers.json"
+        },
+        {
+            "path": "animation_controllers/warden.animation_controllers.json"
+        },
+        {
+            "path": "entity/allay.entity.json"
+        },
+        {
+            "path": "entity/player.entity.json"
+        },
+        {
+            "path": "entity/trader_llama.entity.json"
+        },
+        {
+            "path": "entity/warden.entity.json"
+        },
+        {
+            "path": "render_controllers/player.render_controllers.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        },
+        {
+            "path": "textures/terrain_texture.json"
+        }
+    ]
+}

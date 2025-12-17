@@ -1,0 +1,23 @@
+
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "block.enchanting_table.use": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "sounds/block/enchanting_table/enchant1",
+          "volume": 1
+        },
+        {
+          "name": "sounds/block/enchanting_table/enchant2",
+          "volume": 1
+        },
+        {
+          "name": "sounds/block/enchanting_table/enchant3",
+          "volume": 1
+        }
+      ]
+    }
+  }
+}

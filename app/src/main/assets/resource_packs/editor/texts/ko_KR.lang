@@ -1,0 +1,9 @@
+﻿## Comments can be added anywhere on a valid line by starting with '##'
+##
+## Note, trailing spaces will NOT be trimmed. If you want room between the end of the string and the start of a
+## comment on the same line, use TABs.
+
+resourcePack.editor.client.description=편집기 클라이언트 리소스입니다	#
+resourcePack.editor.client.name=편집기 리소스	#
+resourcePack.editor.server.description=편집기 서버 리소스입니다	#
+resourcePack.editor.server.name=편집기 리소스	#

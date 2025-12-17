@@ -1,0 +1,551 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "camel": {
+        "volume": 1,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.camel.ambient",
+          "death": "mob.camel.death",
+          "eat": "mob.camel.eat",
+          "hurt": "mob.camel.hurt",
+          "saddle": "mob.horse.leather",
+          "step": "mob.camel.step",
+          "step_sand": "mob.camel.step_sand"
+        }
+      }
+    }
+  },
+  "individual_event_sounds": {
+    "events": {
+      "dash_ready": {
+        "sound": "mob.camel.dash_ready",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    }
+  },
+  "block_sounds": {
+    "stone": {
+      "volume": 1.0,
+      "pitch": 1.0,
+      "events": {
+        "default": "",
+        "item.use.on": {
+          "sound": "use.stone",
+          "pitch": 0.8
+        },
+        "break": {
+          "sound": "dig.stone",
+          "volume": 1.0,
+          "pitch": [
+            0.8,
+            1.0
+          ]
+        },
+        "hit": {
+          "sound": "hit.stone",
+          "volume": 0.37,
+          "pitch": 0.5
+        },
+        "place": {
+          "sound": "dig.stone",
+          "volume": 1.0,
+          "pitch": [
+            0.8,
+            1.0
+          ]
+        },
+        "power.on": {
+          "sound": "random.click",
+          "pitch": 0.6
+        },
+        "power.off": {
+          "sound": "random.click",
+          "pitch": 0.5
+        },
+        "button.click_on": {
+          "sound": "random.click",
+          "pitch": 0.6
+        },
+        "button.click_off": {
+          "sound": "random.click",
+          "pitch": 0.5
+        },
+        "pressure_plate.click_on": {
+          "sound": "click_on.stone_pressure_plate"
+        },
+        "pressure_plate.click_off": {
+          "sound": "click_off.stone_pressure_plate"
+        }
+      }
+    },
+    "metal": {
+      "volume": 1.0,
+      "pitch": 1.5,
+      "events": {
+        "default": "",
+        "item.use.on": {
+          "sound": "use.anvil",
+          "pitch": 1.2
+        },
+        "break": {
+          "sound": "dig.stone",
+          "volume": 1.0,
+          "pitch": [
+            1.1,
+            1.2
+          ]
+        },
+        "hit": {
+          "sound": "hit.stone",
+          "volume": 0.30,
+          "pitch": 0.75
+        },
+        "place": {
+          "sound": "dig.stone",
+          "volume": 1.0,
+          "pitch": [
+            1.20,
+            1.25
+          ]
+        },
+        "power.on": {
+          "sound": "random.click",
+          "pitch": 0.6
+        },
+        "power.off": {
+          "sound": "random.click",
+          "pitch": 0.5
+        },
+        "button.click_on": {
+          "sound": "random.click",
+          "pitch": 0.6
+        },
+        "button.click_off": {
+          "sound": "random.click",
+          "pitch": 0.5
+        },
+        "door.open": {
+          "sound": "open.iron_door",
+          "pitch": [
+            0.9,
+            1.0
+          ]
+        },
+        "door.close": {
+          "sound": "close.iron_door",
+          "pitch": [
+            0.9,
+            1.0
+          ]
+        },
+        "trapdoor.open": {
+          "sound": "open.iron_trapdoor",
+          "pitch": [
+            0.9,
+            1.0
+          ]
+        },
+        "trapdoor.close": {
+          "sound": "close.iron_trapdoor",
+          "pitch": [
+            0.9,
+            1.0
+          ]
+        },
+        "pressure_plate.click_on": {
+          "sound": "click_on.metal_pressure_plate"
+        },
+        "pressure_plate.click_off": {
+          "sound": "click_off.metal_pressure_plate"
+        }
+      }
+    },
+    "wood": {
+      "volume": 1.0,
+      "pitch": 1.0,
+      "events": {
+        "default": "",
+        "item.use.on": {
+          "sound": "use.wood",
+          "pitch": 0.8
+        },
+        "break": {
+          "sound": "dig.wood",
+          "volume": 1.0,
+          "pitch": [
+            0.8,
+            1.0
+          ]
+        },
+        "hit": {
+          "sound": "hit.wood",
+          "volume": 0.23,
+          "pitch": 0.5
+        },
+        "place": {
+          "sound": "dig.wood",
+          "volume": 1.0,
+          "pitch": [
+            0.8,
+            0.8
+          ]
+        },
+        "power.on": {
+          "sound": "random.wood_click",
+          "pitch": 0.6
+        },
+        "power.off": {
+          "sound": "random.wood_click",
+          "pitch": 0.5
+        },
+        "button.click_on": {
+          "sound": "random.wood_click",
+          "pitch": 0.6
+        },
+        "button.click_off": {
+          "sound": "random.wood_click",
+          "pitch": 0.5
+        },
+        "door.open": {
+          "sound": "open.wooden_door",
+          "pitch": [
+            0.9,
+            1.0
+          ]
+        },
+        "door.close": {
+          "sound": "close.wooden_door",
+          "pitch": [
+            0.9,
+            1.0
+          ]
+        },
+        "trapdoor.open": {
+          "sound": "open.wooden_trapdoor",
+          "pitch": [
+            0.9,
+            1.0
+          ]
+        },
+        "trapdoor.close": {
+          "sound": "close.wooden_trapdoor",
+          "pitch": [
+            0.9,
+            1.0
+          ]
+        },
+        "pressure_plate.click_on": {
+          "sound": "click_on.wooden_pressure_plate"
+        },
+        "pressure_plate.click_off": {
+          "sound": "click_off.wooden_pressure_plate"
+        },
+        "fence_gate.open": {
+          "sound": "open.fence_gate",
+          "pitch": [
+            0.9,
+            1.0
+          ]
+        },
+        "fence_gate.close": {
+          "sound": "close.fence_gate",
+          "pitch": [
+            0.9,
+            1.0
+          ]
+        }
+      }
+    },
+    "bamboo_wood": {
+      "volume": 1.0,
+      "pitch": 1.0,
+      "events": {
+        "default": "",
+        "item.use.on": {
+          "sound": "step.bamboo_wood",
+          "pitch": 0.8
+        },
+        "break": {
+          "sound": "break.bamboo_wood",
+          "volume": 1.0,
+          "pitch": [
+            0.8,
+            1.0
+          ]
+        },
+        "hit": {
+          "sound": "hit.bamboo_wood",
+          "volume": 0.23,
+          "pitch": 0.5
+        },
+        "place": {
+          "sound": "place.bamboo_wood",
+          "volume": 1.0,
+          "pitch": [
+            0.8,
+            0.8
+          ]
+        },
+        "power.on": {
+          "sound": "random.click",
+          "pitch": 0.6
+        },
+        "power.off": {
+          "sound": "random.click",
+          "pitch": 0.5
+        },
+        "button.click_on": {
+          "sound": "click_on.bamboo_wood_button",
+          "pitch": 0.6
+        },
+        "button.click_off": {
+          "sound": "click_off.bamboo_wood_button",
+          "pitch": 0.5
+        },
+        "door.open": {
+          "sound": "open.bamboo_wood_door",
+          "pitch": [
+            0.9,
+            1.0
+          ]
+        },
+        "door.close": {
+          "sound": "close.bamboo_wood_door",
+          "pitch": [
+            0.9,
+            1.0
+          ]
+        },
+        "trapdoor.open": {
+          "sound": "open.bamboo_wood_trapdoor",
+          "pitch": [
+            0.9,
+            1.0
+          ]
+        },
+        "trapdoor.close": {
+          "sound": "close.bamboo_wood_trapdoor",
+          "pitch": [
+            0.9,
+            1.0
+          ]
+        },
+        "pressure_plate.click_on": {
+          "sound": "click_on.bamboo_wood_pressure_plate"
+        },
+        "pressure_plate.click_off": {
+          "sound": "click_off.bamboo_wood_pressure_plate"
+        },
+        "fence_gate.open": {
+          "sound": "open.bamboo_wood_fence_gate",
+          "pitch": [
+            0.9,
+            1.0
+          ]
+        },
+        "fence_gate.close": {
+          "sound": "close.bamboo_wood_fence_gate",
+          "pitch": [
+            0.9,
+            1.0
+          ]
+        }
+      }
+    },
+    "nether_wood": {
+      "volume": 1.0,
+      "pitch": 1.0,
+      "events": {
+        "default": "",
+        "item.use.on": {
+          "sound": "step.nether_wood",
+          "pitch": 0.8
+        },
+        "break": {
+          "sound": "break.nether_wood",
+          "volume": 1.0,
+          "pitch": [
+            0.8,
+            1.0
+          ]
+        },
+        "hit": {
+          "sound": "hit.nether_wood",
+          "volume": 0.23,
+          "pitch": 0.5
+        },
+        "place": {
+          "sound": "place.nether_wood",
+          "volume": 1.0,
+          "pitch": [
+            0.8,
+            0.8
+          ]
+        },
+        "power.on": {
+          "sound": "random.click",
+          "pitch": 0.6
+        },
+        "power.off": {
+          "sound": "random.click",
+          "pitch": 0.5
+        },
+        "button.click_on": {
+          "sound": "click_on.nether_wood_button",
+          "pitch": 0.6
+        },
+        "button.click_off": {
+          "sound": "click_off.nether_wood_button",
+          "pitch": 0.5
+        },
+        "door.open": {
+          "sound": "open.nether_wood_door",
+          "pitch": [
+            0.9,
+            1.0
+          ]
+        },
+        "door.close": {
+          "sound": "close.nether_wood_door",
+          "pitch": [
+            0.9,
+            1.0
+          ]
+        },
+        "trapdoor.open": {
+          "sound": "open.nether_wood_trapdoor",
+          "pitch": [
+            0.9,
+            1.0
+          ]
+        },
+        "trapdoor.close": {
+          "sound": "close.nether_wood_trapdoor",
+          "pitch": [
+            0.9,
+            1.0
+          ]
+        },
+        "pressure_plate.click_on": {
+          "sound": "click_on.nether_wood_pressure_plate"
+        },
+        "pressure_plate.click_off": {
+          "sound": "click_off.nether_wood_pressure_plate"
+        },
+        "fence_gate.open": {
+          "sound": "open.nether_wood_fence_gate",
+          "pitch": [
+            0.9,
+            1.0
+          ]
+        },
+        "fence_gate.close": {
+          "sound": "close.nether_wood_fence_gate",
+          "pitch": [
+            0.9,
+            1.0
+          ]
+        }
+      }
+    },
+    "hanging_sign": {
+      "events": {
+        "default": "",
+        "item.use.on": {
+          "sound": "step.hanging_sign",
+          "pitch": 0.8
+        },
+        "break": {
+          "sound": "break.hanging_sign",
+          "volume": 0.4,
+          "pitch": [ 0.8, 1.0 ]
+        },
+        "hit": {
+          "sound": "step.hanging_sign",
+          "volume": 0.1,
+          "pitch": 0.5
+        },
+        "place": {
+          "sound": "break.hanging_sign",
+          "volume": 0.25,
+          "pitch": [ 0.8, 1.0 ]
+        }
+      }
+    }
+  },
+  "interactive_sounds": {
+    "block_sounds": {
+      "bamboo_wood": {
+        "events": {
+          "default": "",
+          "fall": {
+            "sounds": "fall.bamboo_wood",
+            "volume": 0.4
+          },
+          "step": {
+            "sound": "step.bamboo_wood",
+            "volume": 0.2
+          },
+          "jump": {
+            "sound": "step.bamboo_wood",
+            "volume": 0.12
+          },
+          "land": {
+            "sound": "step.bamboo_wood",
+            "volume": 0.18
+          }
+        },
+        "volume": 1.0,
+        "pitch": 1.0
+      },
+      "nether_wood": {
+        "events": {
+          "default": "",
+          "fall": {
+            "sounds": "fall.nether_wood",
+            "volume": 0.4
+          },
+          "step": {
+            "sound": "step.nether_wood",
+            "volume": 0.30
+          },
+          "jump": {
+            "sound": "step.nether_wood",
+            "volume": 0.12
+          },
+          "land": {
+            "sound": "step.nether_wood",
+            "volume": 0.18
+          }
+        },
+        "volume": 1.0,
+        "pitch": 1.0
+      },
+      "hanging_sign": {
+        "events": {
+          "default": "",
+          "fall": {
+            "sounds": "step.hanging_sign",
+            "volume": 0.4
+          },
+          "step": {
+            "sound": "step.hanging_sign",
+            "volume": 0.17
+          },
+          "jump": {
+            "sound": "step.hanging_sign",
+            "volume": 0.12
+          },
+          "land": {
+            "sound": "step.hanging_sign",
+            "volume": 0.14
+          }
+        },
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "animations/allay.animation.json"
+        },
+        {
+            "path": "animation_controllers/allay.animation_controllers.json"
+        },
+        {
+            "path": "entity/allay.entity.json"
+        },
+        {
+            "path": "models/entity/allay.geo.json"
+        },
+        {
+            "path": "particles/vibration_signal.json"
+        },
+        {
+            "path": "render_controllers/wolf.render_controllers.json"
+        },
+        {
+            "path": "sounds/music_definitions.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        }
+    ]
+}

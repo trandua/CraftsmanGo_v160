@@ -1,0 +1,81 @@
+package org.simpleframework.xml.core;
+
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Constructor;
+
+/* loaded from: classes.dex */
+abstract class ParameterContact<T extends Annotation> implements Contact {
+    protected final Constructor factory;
+    protected final int index;
+    protected final T label;
+    protected final Annotation[] labels;
+    protected final Class owner;
+
+    @Override // org.simpleframework.xml.core.Contact
+    public abstract String getName();
+
+    public ParameterContact(T label, Constructor factory, int index) {
+        this.labels = factory.getParameterAnnotations()[index];
+        this.owner = factory.getDeclaringClass();
+        this.factory = factory;
+        this.index = index;
+        this.label = label;
+    }
+
+    @Override // org.simpleframework.xml.core.Contact
+    public Annotation getAnnotation() {
+        return this.label;
+    }
+
+    @Override // org.simpleframework.xml.strategy.Type
+    public Class getType() {
+        return this.factory.getParameterTypes()[this.index];
+    }
+
+    @Override // org.simpleframework.xml.core.Contact
+    public Class getDependent() {
+        return Reflector.getParameterDependent(this.factory, this.index);
+    }
+
+    @Override // org.simpleframework.xml.core.Contact
+    public Class[] getDependents() {
+        return Reflector.getParameterDependents(this.factory, this.index);
+    }
+
+    @Override // org.simpleframework.xml.core.Contact
+    public Class getDeclaringClass() {
+        return this.owner;
+    }
+
+    @Override // org.simpleframework.xml.core.Contact
+    public Object get(Object source) {
+        return null;
+    }
+
+    @Override // org.simpleframework.xml.core.Contact
+    public void set(Object source, Object value) {
+    }
+
+    @Override // org.simpleframework.xml.strategy.Type
+    public <A extends Annotation> A getAnnotation(Class<A> type) {
+        Annotation[] arr$ = this.labels;
+        for (Annotation annotation : arr$) {
+            A a = (A) annotation;
+            Class expect = a.annotationType();
+            if (expect.equals(type)) {
+                return a;
+            }
+        }
+        return null;
+    }
+
+    @Override // org.simpleframework.xml.core.Contact
+    public boolean isReadOnly() {
+        return false;
+    }
+
+    @Override // org.simpleframework.xml.core.Contact, org.simpleframework.xml.strategy.Type
+    public String toString() {
+        return String.format("parameter %s of constructor %s", Integer.valueOf(this.index), this.factory);
+    }
+}

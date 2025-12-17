@@ -1,0 +1,25 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "animations/shield.animation.json"
+        },
+        {
+            "path": "animation_controllers/player.animation_controllers.json"
+        },
+        {
+            "path": "animation_controllers/shield.animation_controllers.json"
+        },
+        {
+            "path": "textures/blocks/carrots_stage_3.png"
+        },
+        {
+            "path": "textures/items/boat_darkoak.png"
+        },
+        {
+            "path": "textures/items/boat_spruce.png"
+        }
+    ]
+}

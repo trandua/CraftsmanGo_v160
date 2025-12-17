@@ -1,0 +1,930 @@
+{
+  "block_sounds": {
+    "mud": {
+      "events": {
+        "default": "",
+        "item.use.on": {
+          "sound": "block.mud.step",
+          "pitch": 0.8
+        },
+        "break": {
+          "sound": "block.mud.break",
+          "volume": 0.4,
+          "pitch": [ 0.8, 1.0 ]
+        },
+        "hit": {
+          "sound": "block.mud.hit",
+          "volume": 0.1,
+          "pitch": 0.5
+        },
+        "place": {
+          "sound": "block.mud.place",
+          "volume": 0.25,
+          "pitch": [ 0.8, 1.0 ]
+        }
+      }
+    },
+    "packed_mud": {
+      "events": {
+        "default": "",
+        "item.use.on": {
+          "sound": "block.packed_mud.step",
+          "pitch": 0.8
+        },
+        "break": {
+          "sound": "block.packed_mud.break",
+          "volume": 0.4,
+          "pitch": [ 0.8, 1.0 ]
+        },
+        "hit": {
+          "sound": "block.packed_mud.hit",
+          "volume": 0.1,
+          "pitch": 0.5
+        },
+        "place": {
+          "sound": "block.packed_mud.place",
+          "volume": 0.25,
+          "pitch": [ 0.8, 1.0 ]
+        }
+      }
+    },
+    "mud_bricks": {
+      "events": {
+        "default": "",
+        "item.use.on": {
+          "sound": "block.mud_bricks.step",
+          "volume": 1.0,
+          "pitch": 0.8
+        },
+        "break": {
+          "sound": "block.mud_bricks.break",
+          "volume": 0.5,
+          "pitch": [ 0.8, 1.0 ]
+        },
+        "hit": {
+          "sound": "block.mud_bricks.hit",
+          "volume": 0.1,
+          "pitch": 0.5
+        },
+        "place": {
+          "sound": "block.mud_bricks.place",
+          "volume": 0.3,
+          "pitch": [ 0.6, 0.8 ]
+        }
+      }
+    },
+    "mangrove_roots": {
+      "events": {
+        "default": "",
+        "item.use.on": {
+          "sound": "block.mangrove_roots.step",
+          "pitch": 0.8
+        },
+        "break": {
+          "sound": "block.mangrove_roots.break",
+          "volume": 0.4,
+          "pitch": [ 0.8, 1.0 ]
+        },
+        "hit": {
+          "sound": "block.mangrove_roots.hit",
+          "volume": 0.1,
+          "pitch": 0.5
+        },
+        "place": {
+          "sound": "block.mangrove_roots.place",
+          "volume": 0.25,
+          "pitch": [ 1.0, 1.2 ]
+        }
+      }
+    },
+    "muddy_mangrove_roots": {
+      "events": {
+        "default": "",
+        "item.use.on": {
+          "sound": "block.muddy_mangrove_roots.step",
+          "pitch": 0.8
+        },
+        "break": {
+          "sound": "block.muddy_mangrove_roots.break",
+          "volume": 0.4,
+          "pitch": [ 0.8, 1.0 ]
+        },
+        "hit": {
+          "sound": "block.muddy_mangrove_roots.hit",
+          "volume": 0.05,
+          "pitch": 0.5
+        },
+        "place": {
+          "sound": "block.muddy_mangrove_roots.place",
+          "volume": 0.25,
+          "pitch": [ 0.8, 1.0 ]
+        }
+      }
+    },
+    "froglight": {
+      "events": {
+        "default": "",
+        "break": {
+          "sound": "break.froglight",
+          "volume": 1.0
+        },
+        "hit": {
+          "sound": "step.froglight",
+          "volume": 0.83,
+          "pitch": 1.3
+        },
+        "place": {
+          "sound": "break.froglight",
+          "volume": 1.0
+        },
+        "item.use.on": {
+          "sound": "place.froglight",
+          "volume": 1.0,
+          "pitch": [ 0.8, 1.0 ]
+        }
+      },
+      "pitch": 1.0
+    },
+    "frog_spawn": {
+      "events": {
+        "default": "",
+        "break": {
+          "sound": "break.frog_spawn",
+          "volume": 0.1,
+          "pitch": 1.2
+        },
+        "hit": {
+          "sound": "step.frog_spawn",
+          "volume": 0.3,
+          "pitch": 1.3
+        },
+        "place": {
+          "sound": "break.frog_spawn",
+          "volume": 0.2,
+          "pitch": 1.5
+        }
+      }
+    },
+    "sculk_sensor": {
+      "volume": 1.0,
+      "pitch": 1.0,
+      "events": {
+        "default": "",
+        "item.use.on": {
+          "sound": "use.sculk_sensor",
+          "pitch": 0.8
+        },
+        "break": {
+          "sound": "break.sculk_sensor",
+          "volume": 1.0,
+          "pitch": [ 0.8, 1.0 ]
+        },
+        "hit": {
+          "sound": "hit.sculk_sensor",
+          "volume": 0.35,
+          "pitch": 0.5
+        },
+        "place": {
+          "sound": "place.sculk_sensor",
+          "volume": 0.8,
+          "pitch": [ 0.8, 1.0 ]
+        },
+        "power.on": {
+          "sound": "random.click",
+          "pitch": 0.6
+        },
+        "power.off": {
+          "sound": "random.click",
+          "pitch": 0.5
+        }
+      }
+    },
+    "sculk": {
+      "volume": 1.0,
+      "pitch": 1.0,
+      "events": {
+        "default": "",
+        "break": {
+          "sound": "break.sculk",
+          "volume": 1.0,
+          "pitch": [ 0.8, 1.0 ]
+        },
+        "hit": {
+          "sound": "hit.sculk",
+          "volume": 0.35,
+          "pitch": 0.5
+        },
+        "place": {
+          "sound": "break.sculk",
+          "volume": 1.0,
+          "pitch": [ 0.8, 1.0 ]
+        },
+        "item.use.on": {
+          "sound": "place.sculk",
+          "volume": 1.0,
+          "pitch": [ 0.8, 1.0 ]
+        }
+      }
+    },
+    "sculk_catalyst": {
+      "events": {
+        "default": "",
+        "break": {
+          "sound": "break.sculk_catalyst",
+          "volume": 1.0,
+          "pitch": [ 0.8, 1.0 ]
+        },
+        "hit": {
+          "sound": "hit.sculk_catalyst",
+          "volume": 0.3,
+          "pitch": 0.5
+        },
+        "place": {
+          "sound": "break.sculk_catalyst",
+          "volume": 1.0,
+          "pitch": [ 0.8, 1.0 ]
+        },
+        "item.use.on": {
+          "sound": "place.sculk_catalyst",
+          "volume": 1.0,
+          "pitch": [ 0.8, 1.0 ]
+        }
+      }
+    },
+    "sculk_vein": {
+      "events": {
+        "default": "",
+        "break": {
+          "sound": "break.sculk_vein",
+          "volume": 1.0,
+          "pitch": [ 0.8, 1.0 ]
+        },
+        "hit": {
+          "sound": "step.sculk_vein",
+          "volume": 0.3,
+          "pitch": 0.5
+        },
+        "place": {
+          "sound": "break.sculk_vein",
+          "volume": 1.0,
+          "pitch": [ 0.8, 1.0 ]
+        },
+        "item.use.on": {
+          "sound": "place.sculk_vein",
+          "volume": 1.0,
+          "pitch": [ 0.8, 1.0 ]
+        }
+      }
+    },
+    "sculk_shrieker": {
+      "events": {
+        "default": "",
+        "break": {
+          "sound": "break.sculk_shrieker",
+          "volume": 1.0,
+          "pitch": [ 0.8, 1.0 ]
+        },
+        "hit": {
+          "sound": "step.sculk_shrieker",
+          "volume": 0.3,
+          "pitch": 0.5
+        },
+        "place": {
+          "sound": "break.sculk_shrieker",
+          "volume": 1.0,
+          "pitch": [ 0.8, 1.0 ]
+        },
+        "item.use.on": {
+          "sound": "place.sculk_shrieker",
+          "volume": 1.0,
+          "pitch": [ 0.8, 1.0 ]
+        }
+      }
+    }
+  },
+    "interactive_sounds": {
+      "block_sounds": {
+        "mud": {
+          "events": {
+            "default": "",
+            "fall": {
+              "sounds": "block.mud.fall",
+              "volume": 0.4
+            },
+            "step": {
+              "sound": "block.mud.step",
+              "volume": 0.1
+            },
+            "jump": {
+              "sound": "block.mud.step",
+              "volume": 0.1
+            },
+            "land": {
+              "sound": "block.mud.fall",
+              "volume": 0.1
+            }
+          },
+          "volume": 1.0,
+          "pitch": 1.00
+        },
+        "packed_mud": {
+          "events": {
+            "default": "",
+            "fall": {
+              "sounds": "block.packed_mud.fall",
+              "volume": 0.4
+            },
+            "step": {
+              "sound": "block.packed_mud.step",
+              "volume": 0.05
+            },
+            "jump": {
+              "sound": "block.packed_mud.step",
+              "volume": 0.05
+            },
+            "land": {
+              "sound": "block.packed_mud.fall",
+              "volume": 0.05
+            }
+          },
+          "volume": 1.0,
+          "pitch": 1.00
+        },
+        "mud_bricks": {
+          "events": {
+            "default": "",
+            "fall": {
+              "sounds": "block.mud_bricks.fall",
+              "volume": 0.4
+            },
+            "step": {
+              "sound": "block.mud_bricks.step",
+              "volume": 0.05
+            },
+            "jump": {
+              "sound": "block.mud_bricks.step",
+              "volume": 0.05
+            },
+            "land": {
+              "sound": "block.mud_bricks.fall",
+              "volume": 0.05
+            }
+          },
+          "volume": 1.0,
+          "pitch": 1.00
+        },
+        "mangrove_roots": {
+          "events": {
+            "default": "",
+            "fall": {
+              "sounds": "block.mangrove_roots.fall",
+              "volume": 0.4
+            },
+            "step": {
+              "sound": "block.mangrove_roots.step",
+              "volume": 0.1
+            },
+            "jump": {
+              "sound": "block.mangrove_roots.step",
+              "volume": 0.1
+            },
+            "land": {
+              "sound": "block.mangrove_roots.fall",
+              "volume": 0.1
+            }
+          },
+          "volume": 1.0,
+          "pitch": 1.00
+        },
+        "muddy_mangrove_roots": {
+          "events": {
+            "default": "",
+            "fall": {
+              "sounds": "block.muddy_mangrove_roots.fall",
+              "volume": 0.4
+            },
+            "step": {
+              "sound": "block.muddy_mangrove_roots.step",
+              "volume": 0.05
+            },
+            "jump": {
+              "sound": "block.muddy_mangrove_roots.step",
+              "volume": 0.05
+            },
+            "land": {
+              "sound": "block.muddy_mangrove_roots.fall",
+              "volume": 0.05
+            }
+          },
+          "volume": 1.0,
+          "pitch": 1.00
+        },
+        "froglight": {
+          "events": {
+            "default": "",
+            "fall": {
+              "sounds": "step.froglight",
+              "volume": 1.0
+            },
+            "step": {
+              "sound": "step.froglight",
+              "volume": 1.0
+            },
+            "jump": {
+              "sound": "step.froglight",
+              "volume": 0.12
+            },
+            "land": {
+              "sound": "step.froglight",
+              "volume": 0.14
+            }
+          },
+          "volume": 1.0,
+          "pitch": 1.00
+        },
+        "frog_spawn": {
+          "events": {
+            "default": "",
+            "fall": {
+              "sounds": "step.frog_spawn",
+              "volume": 0.3,
+              "pitch": 1.3
+            },
+            "step": {
+              "sound": "step.frog_spawn",
+              "volume": 0.3
+            },
+            "jump": {
+              "sound": "step.frog_spawn",
+              "volume": 0.12
+            },
+            "land": {
+              "sound": "step.frog_spawn",
+              "volume": 0.14
+            }
+          },
+          "volume": 1.0,
+          "pitch": 1.00
+        },
+        "sculk_sensor": {
+          "events": {
+            "default": "",
+            "fall": {
+              "sounds": "fall.sculk_sensor",
+              "volume": 0.4
+            },
+            "step": {
+              "sound": "step.sculk_sensor",
+              "volume": 0.17
+            },
+            "jump": {
+              "sound": "jump.sculk_sensor",
+              "volume": 0.12
+            },
+            "land": {
+              "sound": "land.sculk_sensor",
+              "volume": 0.14
+            }
+          },
+          "volume": 1.0,
+          "pitch": 1.00
+        },
+        "sculk": {
+          "events": {
+            "default": "",
+            "fall": {
+              "sounds": "step.sculk",
+              "volume": 0.4
+            },
+            "step": {
+              "sound": "step.sculk",
+              "volume": 0.17
+            },
+            "jump": {
+              "sound": "step.sculk",
+              "volume": 0.12
+            },
+            "land": {
+              "sound": "step.sculk",
+              "volume": 0.14
+            }
+          },
+          "volume": 1.0,
+          "pitch": 1.00
+        },
+        "sculk_catalyst": {
+          "events": {
+            "default": "",
+            "fall": {
+              "sounds": "step.sculk_catalyst",
+              "volume": 0.4
+            },
+            "step": {
+              "sound": "step.sculk_catalyst",
+              "volume": 0.17
+            },
+            "jump": {
+              "sound": "step.sculk_catalyst",
+              "volume": 0.12
+            },
+            "land": {
+              "sound": "step.sculk_catalyst",
+              "volume": 0.14
+            }
+          },
+          "volume": 1.0,
+          "pitch": 1.00
+        },
+        "sculk_shrieker": {
+          "events": {
+            "default": "",
+            "fall": {
+              "sounds": "step.sculk_shrieker",
+              "volume": 0.4
+            },
+            "step": {
+              "sound": "step.sculk_shrieker",
+              "volume": 0.17
+            },
+            "jump": {
+              "sound": "step.sculk_shrieker",
+              "volume": 0.12
+            },
+            "land": {
+              "sound": "step.sculk_shrieker",
+              "volume": 0.14
+            }
+          },
+          "volume": 1.0,
+          "pitch": 1.00
+        },
+        "sculk_vein": {
+          "events": {
+            "default": "",
+            "fall": {
+              "sounds": "step.sculk_vein",
+              "volume": 0.4
+            },
+            "step": {
+              "sound": "step.sculk_vein",
+              "volume": 0.17
+            },
+            "jump": {
+              "sound": "step.sculk_vein",
+              "volume": 0.12
+            },
+            "land": {
+              "sound": "step.sculk_vein",
+              "volume": 0.14
+            }
+          },
+          "volume": 1.0,
+          "pitch": 1.0
+        }
+      }
+    },
+    "individual_event_sounds": {
+      "events": {
+        "record.5": {
+          "sound": "record.5",
+          "volume": 1.0,
+          "pitch": 1.0
+        },
+        "power.off.sculk_sensor": {
+          "sound": "power.off.sculk_sensor",
+          "volume": 0.62,
+          "pitch": [ 0.8, 1.2 ]
+        },
+        "power.on.sculk_sensor": {
+          "sound": "power.on.sculk_sensor",
+          "volume": 0.73,
+          "pitch": [ 0.8, 1.2 ]
+        },
+        "block.sculk_shrieker.shriek": {
+          "sound": "shriek.sculk_shrieker",
+          "volume": 0.85,
+          "pitch": [ 0.6, 1.0 ]
+        },
+        "block.sculk_catalyst.bloom": {
+          "sound": "bloom.sculk_catalyst",
+          "volume": 0.25,
+          "attenuation_distance": 12
+        },
+        "block.sculk_sensor.clicking_stop": {
+          "sound": "clicking_stop.sculk_sensor",
+          "pitch": 0.62
+        },
+        "block.sculk.place": {
+          "sound": "place.sculk",
+          "volume": 0.5,
+          "pitch": 1.0
+        },
+        "block.sculk.spread": {
+          "sound": "spread.sculk",
+          "volume": 1.0,
+          "pitch": 0.9
+        },
+        "block.sculk.charge": {
+          "sound": "charge.sculk",
+          "volume": 1.0,
+          "pitch": 1.0
+
+        },
+        "block.sculk_sensor.place": {
+          "sound": "place.sculk_sensor",
+          "volume": 1.0,
+          "pitch": 1.0
+        },
+        "block.sculk_shrieker.place": {
+          "sound": "place.sculk_shrieker",
+          "volume": 1.0,
+          "pitch": 1.0
+        },
+        "block.sculk_sensor.clicking": {
+          "sound": "clicking.sculk_sensor",
+          "pitch": 0.73
+        },
+        "nearby_close": {
+          "sound": "nearby_close.warden",
+          "volume": 1,
+          "pitch": [ 0.8, 1.2 ]
+        },
+        "nearby_closer": {
+          "sound": "nearby_closer.warden",
+          "volume": 1,
+          "pitch": [ 0.8, 1.2 ]
+        },
+        "nearby_closest": {
+          "sound": "nearby_closest.warden",
+          "volume": 1,
+          "pitch": [ 0.8, 1.2 ]
+        },
+        "slightly_angry": {
+          "sound": "slightly_angry.warden",
+          "volume": 1,
+          "pitch": [ 0.8, 1.2 ]
+        },
+        "block.frog_spawn.hatch": {
+          "sound": "hatch.frog_spawn",
+          "volume": 1.2,
+          "pitch": 0.6
+        },
+        "lay_spawn": {
+          "sound": "mob.frog.lay_spawn",
+          "volume": 0.3,
+          "pitch": 0.9
+        },
+        "block.frog_spawn.break": {
+          "sound": "break.frog_spawn",
+          "volume": 0.3,
+          "pitch": 0.9
+        },
+        "tongue": {
+          "sound": "mob.frog.tongue",
+          "volume": 1,
+          "pitch": [ 0.8, 1.2 ]
+        },
+        "item_given": {
+          "sound": "mob.allay.item_given",
+          "volume": 1,
+          "pitch": [ 0.8, 1.2 ]
+        },
+        "item_taken": {
+          "sound": "mob.allay.item_taken",
+          "volume": 1,
+          "pitch": [ 0.8, 1.2 ]
+        },
+        "item_thrown": {
+          "sound": "mob.allay.item_thrown",
+          "volume": 1,
+          "pitch": 1
+        },
+        "sonic_boom": {
+          "sound": "mob.warden.sonic_boom",
+          "volume": 3.0,
+          "pitch": 1.0
+        },
+        "sonic_charge": {
+          "sound": "mob.warden.sonic_charge",
+          "volume": 3.0,
+          "pitch": 1.0
+        },
+        "horn_break": {
+          "sound": "mob.goat.horn_break",
+          "volume": 1.0,
+          "pitch": 1.0
+        },
+        "horn_call0": {
+          "sound": "horn.call.0",
+          "volume": 1.0,
+          "pitch": 1.0
+        },
+        "horn_call1": {
+          "sound": "horn.call.1",
+          "volume": 1.0,
+          "pitch": 1.0
+        },
+        "horn_call2": {
+          "sound": "horn.call.2",
+          "volume": 1.0,
+          "pitch": 1.0
+        },
+        "horn_call3": {
+          "sound": "horn.call.3",
+          "volume": 1.0,
+          "pitch": 1.0
+        },
+        "horn_call4": {
+          "sound": "horn.call.4",
+          "volume": 1.0,
+          "pitch": 1.0
+        },
+        "horn_call5": {
+          "sound": "horn.call.5",
+          "volume": 1.0,
+          "pitch": 1.0
+        },
+        "horn_call6": {
+          "sound": "horn.call.6",
+          "volume": 1.0,
+          "pitch": 1.0
+        },
+        "horn_call7": {
+          "sound": "horn.call.7",
+          "volume": 1.0,
+          "pitch": 1.0
+        },
+        "convert_to_frog": {
+          "sound": "mob.tadpole.convert_to_frog",
+          "volume": 1.0,
+          "pitch": 1.0
+        }
+      }
+    },
+    "entity_sounds": {
+        "entities": {
+            "frog": {
+              "volume": 1,
+              "pitch": [ 0.8, 1.2 ],
+              "events": {
+                "ambient": "mob.frog.ambient",
+                "hurt": "mob.frog.hurt",
+                "death": "mob.frog.death",
+                "step": "mob.frog.step",
+                "eat": "mob.frog.eat",
+                "ambient.baby": {
+                  "sound": "mob.frog.ambient",
+                  "volume": 2.5,
+                  "pitch": 1.2
+                },
+                "jump_to_block": "mob.frog.jump_to_block"
+              }
+            },
+            "tadpole": {
+              "volume": 1,
+              "pitch": [ 0.8, 1.2 ],
+              "events": {
+                "hurt": "mob.tadpole.hurt",
+                "death": "mob.tadpole.death",
+                "flop": {
+                  "sound": "mob.fish.flop",
+                  "volume": 1.0,
+                  "pitch": 1.0
+                }
+              }
+            },
+            "allay": {
+              "volume": 1,
+              "pitch": [ 0.8, 1.2 ],
+              "events": {
+                "hurt": "mob.allay.hurt",
+                "death": "mob.allay.death",
+                "ambient": "mob.allay.idle",
+                "ambient.tame": "mob.allay.idle_holding"
+              }
+            },
+            "warden": {
+              "volume": 1.0,
+              "pitch": [ 0.8, 1.2 ],
+              "events": {
+                "step": {
+                  "sound": "mob.warden.step",
+                  "volume": 10.0,
+                  "pitch": 1.0
+                },
+                "ambient": "mob.warden.idle",
+                "heartbeat": {
+                  "sound": "mob.warden.heartbeat",
+                  "volume": 5.0,
+                  "pitch": 1.0
+                },
+                "nearby_close": {
+                  "sound": "mob.warden.nearby_close",
+                  "volume": 5.0,
+                  "pitch": [
+                    0.8,
+                    1.2
+                  ]
+                },
+                "nearby_closer": {
+                  "sound": "mob.warden.nearby_closer",
+                  "volume": 5.0,
+                  "pitch": [
+                    0.8,
+                    1.2
+                  ]
+                },
+                "nearby_closest": {
+                  "sound": "mob.warden.nearby_closest",
+                  "volume": 5.0,
+                  "pitch": [
+                    0.8,
+                    1.2
+                  ]
+                },
+                "agitated": {
+                  "sound": "mob.warden.agitated",
+                  "volume": 10.0,
+                  "pitch": [
+                    0.8,
+                    1.2
+                  ]
+                },
+                "angry": {
+                  "sound": "mob.warden.angry",
+                  "volume": 10.0,
+                  "pitch": [
+                    0.8,
+                    1.2
+                  ]
+                },
+                "listening": {
+                  "sound": "mob.warden.listening",
+                  "volume": 10.0,
+                  "pitch": [
+                    0.8,
+                    1.2
+                  ]
+                },
+                "listening_angry": {
+                  "sound": "mob.warden.listening_angry",
+                  "volume": 10.0,
+                  "pitch": [
+                    0.8,
+                    1.2
+                  ]
+                },
+                "sniff": {
+                  "sound": "mob.warden.sniff",
+                  "volume": 5.0,
+                  "pitch": 1.0
+                },
+                "dig": {
+                  "sound": "mob.warden.dig",
+                  "volume": 5.0,
+                  "pitch": 1.0
+                },
+                "emerge": {
+                  "sound": "mob.warden.emerge",
+                  "volume": 5.0,
+                  "pitch": 1.0
+                },
+                "roar": {
+                  "sound": "mob.warden.roar",
+                  "volume": 10.0,
+                  "pitch": 1.0
+                },
+                "idle": {
+                  "sound": "mob.warden.idle",
+                  "volume": 3.0,
+                  "pitch": 1.0
+                },
+                "attack": {
+                  "sound": "mob.warden.attack",
+                  "volume": 10.0,
+                  "pitch": 1.0
+                },
+                "hurt": {
+                  "sound": "mob.warden.hurt",
+                  "volume": 1.0,
+                  "pitch": [ 0.8, 1.0 ]
+                },
+                "death": {
+                  "sound": "mob.warden.death",
+                  "volume": 1.0,
+                  "pitch": [ 0.8, 1.0 ]
+                }
+              }
+            },
+            "parrot": {
+              "events": {
+                "imitate.warden": {
+                  "sound": "mob.warden.clicking",
+                  "volume": 0.8,
+                  "pitch": 1.8
+                }
+              }
+            }
+        }
+    }
+}

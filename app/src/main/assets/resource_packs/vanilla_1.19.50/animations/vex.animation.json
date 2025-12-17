@@ -1,0 +1,43 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.vex.idle" : {
+			"loop" : true,
+			"bones" : {
+				"leftarm" : {
+					"rotation" : {
+						"0.0": [ 0.0, 0.0, -32.34 ],
+						"0.75": [ 0.0, 0.0, -45 ],
+						"2.0": [ 0.0, 0.0, -32.34 ]
+					}
+				},
+				"rightarm" : {
+					"rotation" : {
+						"0.0": [ 0.0, 0.0, 32.34 ],
+						"0.75": [ 0.0, 0.0, 45 ],
+						"2.0": [ 0.0, 0.0, 32.34 ]
+					}
+				},
+				"leftwing" : {
+					"rotation" : [ "27.0 - this", "-(15.0 + math.cos(query.life_time * 916.8) * 9.0) - this", "-45.0 - this" ]
+				},
+				"rightwing" : {
+					"rotation" : [ "27.0 - this", "15.0 + math.cos(query.life_time * 916.8) * 9.0 - this", "45.0 - this" ]
+				},
+				"rightItem" : {
+					"scale": 0.7
+				}
+			}
+		},
+		"animation.vex.charge" : {
+			"anim_time_update" : "query.modified_distance_moved",
+			"loop" : true,
+			"bones" : {
+				"rightarm" : {
+					"rotation" : [ "210.0 - this", "15.0 - this", "-25.0 - 32.34 - this" ]
+				}
+				
+			}
+		}
+	}
+}

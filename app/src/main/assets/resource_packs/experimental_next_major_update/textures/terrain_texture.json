@@ -1,0 +1,49 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "bamboo_mosaic": {
+      "textures": "textures/blocks/bamboo_mosaic"
+    },
+    "bamboo_planks": {
+      "textures": "textures/blocks/bamboo_planks"
+    },
+    "bamboo_sign": {
+      "textures": "textures/blocks/bamboo_planks"
+    },
+    "bamboo_fence": {
+      "textures": "textures/blocks/bamboo_fence"
+    },
+    "bamboo_fence_gate": {
+      "textures": "textures/blocks/bamboo_fence_gate"
+    },
+    "bamboo_door_top": {
+      "textures": "textures/blocks/bamboo_door_top"
+    },
+    "bamboo_door_bottom": {
+      "textures": "textures/blocks/bamboo_door_bottom"
+    },
+    "bamboo_trapdoor": {
+      "textures": "textures/blocks/bamboo_trapdoor"
+    },
+    "chiseled_bookshelf_front": {
+      "textures": [
+        "textures/blocks/chiseled_bookshelf_stage0",
+        "textures/blocks/chiseled_bookshelf_stage1",
+        "textures/blocks/chiseled_bookshelf_stage2",
+        "textures/blocks/chiseled_bookshelf_stage3",
+        "textures/blocks/chiseled_bookshelf_stage4",
+        "textures/blocks/chiseled_bookshelf_stage5",
+        "textures/blocks/chiseled_bookshelf_stage6"
+      ]
+    },
+    "chiseled_bookshelf_side": {
+      "textures": "textures/blocks/chiseled_bookshelf_side"
+    },
+    "chiseled_bookshelf_top": {
+      "textures": "textures/blocks/chiseled_bookshelf_top"
+    }
+  }
+}

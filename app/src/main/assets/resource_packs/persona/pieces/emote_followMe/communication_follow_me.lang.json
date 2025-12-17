@@ -1,0 +1,10 @@
+{
+    "persona.emote.chatMessage": {
+      "en_US": "@ is asking everyone to &Follow& along.",
+      "neutral": "@ is asking everyone to &Follow& along."
+    },
+    "persona.emote.chatMessageEasterEgg": {
+      "en_US": "@: Llama train, rolling out! (&Follow&)",
+      "neutral": "@: Llama train, rolling out! (&Follow&)"
+    }
+}

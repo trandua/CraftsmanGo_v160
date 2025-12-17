@@ -1,0 +1,28 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "animations/player_firstperson.animation.json"
+        },
+        {
+            "path": "animation_controllers/player.animation_controllers.json"
+        },
+        {
+            "path": "entity/player.entity.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        },
+        {
+            "path": "textures/textures_list.json"
+        },
+        {
+            "path": "textures/entity/piglin/zombie_piglin.png"
+        },
+        {
+            "path": "textures/models/armor/netherite_2.png"
+        }
+    ]
+}

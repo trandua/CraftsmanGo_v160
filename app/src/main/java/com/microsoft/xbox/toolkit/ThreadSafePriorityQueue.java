@@ -1,0 +1,36 @@
+package com.microsoft.xbox.toolkit;
+
+import java.util.HashSet;
+import java.util.PriorityQueue;
+
+/* loaded from: classes3.dex */
+public class ThreadSafePriorityQueue<T> {
+    private HashSet<T> hashSet = new HashSet<>();
+    private PriorityQueue<T> queue = new PriorityQueue<>();
+    private Object syncObject = new Object();
+
+    public T pop() {
+        T t = null;
+        try {
+            synchronized (this.syncObject) {
+                while (this.queue.isEmpty()) {
+                    this.syncObject.wait();
+                }
+                t = this.queue.remove();
+                this.hashSet.remove(t);
+            }
+        } catch (InterruptedException unused) {
+        }
+        return t;
+    }
+
+    public void push(T t) {
+        synchronized (this.syncObject) {
+            if (!this.hashSet.contains(t)) {
+                this.queue.add(t);
+                this.hashSet.add(t);
+                this.syncObject.notifyAll();
+            }
+        }
+    }
+}

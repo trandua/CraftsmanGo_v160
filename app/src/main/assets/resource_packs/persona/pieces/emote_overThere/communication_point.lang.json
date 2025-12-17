@@ -1,0 +1,10 @@
+{
+    "persona.emote.chatMessage": {
+      "en_US": "@ is pointing &over there&!",
+      "neutral": "@ is pointing &over there&!"
+    },
+    "persona.emote.chatMessageEasterEgg": {
+      "en_US": "@: This isn't working... CREEPER!",
+      "neutral": "@: This isn't working... CREEPER!"
+    }
+}

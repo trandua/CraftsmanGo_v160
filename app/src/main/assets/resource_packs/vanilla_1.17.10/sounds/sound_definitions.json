@@ -1,0 +1,184 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "cake.add_candle": {
+      "category": "block",
+      "sounds": [
+        "sounds/block/cake/add_candle1",
+        "sounds/block/cake/add_candle2",
+        "sounds/block/cake/add_candle3"
+      ]
+    },
+    "ambient.candle": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "sounds/block/candle/ambient1",
+          "volume": 0.7,
+          "pitch": 0.8
+        },
+        {
+          "name": "sounds/block/candle/ambient2",
+          "volume": 0.7,
+          "pitch": 0.8
+        },
+        {
+          "name": "sounds/block/candle/ambient3",
+          "volume": 0.7,
+          "pitch": 0.8
+        },
+        {
+          "name": "sounds/block/candle/ambient1",
+          "volume": 0.8,
+          "pitch": 0.9
+        },
+        {
+          "name": "sounds/block/candle/ambient2",
+          "volume": 0.8,
+          "pitch": 0.9
+        },
+        {
+          "name": "sounds/block/candle/ambient3",
+          "volume": 0.8,
+          "pitch": 0.9
+        },
+        {
+          "name": "sounds/block/candle/ambient1",
+          "volume": 1
+        },
+        {
+          "name": "sounds/block/candle/ambient2",
+          "volume": 1
+        },
+        {
+          "name": "sounds/block/candle/ambient3",
+          "volume": 1
+        }
+      ]
+    },
+    "extinguish.candle": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "sounds/block/candle/extinguish1",
+          "volume": 1
+        },
+        {
+          "name": "sounds/block/candle/extinguish2",
+          "volume": 1
+        },
+        {
+          "name": "sounds/block/candle/extinguish3",
+          "volume": 1
+        },
+        {
+          "name": "sounds/block/candle/extinguish1",
+          "volume": 1.0,
+          "pitch": 0.9
+        },
+        {
+          "name": "sounds/block/candle/extinguish2",
+          "volume": 1.0,
+          "pitch": 0.9
+        },
+        {
+          "name": "sounds/block/candle/extinguish3",
+          "volume": 1.0,
+          "pitch": 0.9
+        },
+        {
+          "name": "sounds/block/candle/extinguish1",
+          "volume": 1.0,
+          "pitch": 1.1
+        },
+        {
+          "name": "sounds/block/candle/extinguish2",
+          "volume": 1.0,
+          "pitch": 1.1
+        },
+        {
+          "name": "sounds/block/candle/extinguish3",
+          "volume": 1.0,
+          "pitch": 1.1
+        },
+        {
+          "name": "sounds/block/candle/extinguish1",
+          "volume": 0.9,
+          "pitch": 0.9
+        },
+        {
+          "name": "sounds/block/candle/extinguish2",
+          "volume": 0.9,
+          "pitch": 0.9
+        },
+        {
+          "name": "sounds/block/candle/extinguish3",
+          "volume": 0.9,
+          "pitch": 0.9
+        },
+        {
+          "name": "sounds/block/candle/extinguish1",
+          "volume": 0.9,
+          "pitch": 1.1
+        },
+        {
+          "name": "sounds/block/candle/extinguish2",
+          "volume": 0.9,
+          "pitch": 1.1
+        },
+        {
+          "name": "sounds/block/candle/extinguish3",
+          "volume": 0.9,
+          "pitch": 1.1
+        },
+        {
+          "name": "sounds/block/candle/extinguish1",
+          "volume": 0.9,
+          "pitch": 1.0
+        },
+        {
+          "name": "sounds/block/candle/extinguish2",
+          "volume": 0.9,
+          "pitch": 1.0
+        },
+        {
+          "name": "sounds/block/candle/extinguish3",
+          "volume": 0.9,
+          "pitch": 1.0
+        }
+      ]
+    },
+    "use.candle": {
+      "category": "block",
+      "sounds": [
+        "sounds/block/candle/step1",
+        "sounds/block/candle/step2",
+        "sounds/block/candle/step3"
+      ]
+    },
+    "dig.candle": {
+      "category": "block",
+      "sounds": [
+        "sounds/block/candle/break1",
+        "sounds/block/candle/break2",
+        "sounds/block/candle/break3"
+      ]
+    },
+    "step.candle": {
+      "category": "block",
+      "sounds": [
+        "sounds/block/candle/step1",
+        "sounds/block/candle/step2",
+        "sounds/block/candle/step3"
+      ]
+    },
+    "hit.candle": {
+      "category": "block",
+      "sounds": [
+        "sounds/block/candle/step1",
+        "sounds/block/candle/step2",
+        "sounds/block/candle/step3"
+      ]
+    }
+  }
+}

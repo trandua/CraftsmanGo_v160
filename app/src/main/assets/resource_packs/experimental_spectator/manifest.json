@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Experimental internal resource pack for spectator mode work",
+        "name": "experimental spectator internal",
+        "uuid": "1ac510da-f330-478d-8ca3-fcb12614bb09",
+        "version": [
+            0,
+            0,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            18,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "Experimental internal resource pack for spectator mode work",
+            "type": "resources",
+            "uuid": "41081487-96f0-4522-8a29-04e5b1d786ea",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+	"piece_id": "a1f26368-ebfe-843a-e6ff-f2dc724108ec",
+	"piece_name": "sunny_pants",
+	"piece_type": "persona_high_pants",
+	"texture_sources": [
+		{
+			"texture": "sunny_pants.png"
+		}
+	]
+}

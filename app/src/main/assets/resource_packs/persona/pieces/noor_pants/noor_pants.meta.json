@@ -1,0 +1,10 @@
+{
+	"piece_id": "2f7834d2-d0af-8110-fa75-28e59022b34b",
+	"piece_name": "noor_pants",
+	"piece_type": "persona_high_pants",
+	"texture_sources": [
+		{
+			"texture": "noor_pants.png"
+		}
+	]
+}

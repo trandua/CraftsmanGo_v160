@@ -1,0 +1,19 @@
+{
+    "content": [
+        {
+            "path": "blocks.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "animations/shield.animation.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        }
+    ]
+}

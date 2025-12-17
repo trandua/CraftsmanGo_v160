@@ -1,0 +1,38 @@
+{
+    "block_sounds": {
+	    "candle":  {
+	    	"volume": 1.0,
+	    	"pitch": 1.0,
+	    	"events": {
+	    		"default": "",
+	    		"item.use.on": { "sound": "use.candle",  "pitch": 0.8 },
+	    		"break": { "sound": "dig.candle", "volume": 1.0, "pitch": 1.0 },
+	    		"hit": { "sound": "hit.candle",  "volume": 1.0, "pitch": 1.0 },
+	    		"place": { "sound": "dig.candle", "volume": 1.0, "pitch": 1.0 },
+	    		"power.on": { "sound": "random.click", "pitch": 0.6},
+	    		"power.off": { "sound": "random.click", "pitch": 0.5}
+	    	}
+	    }
+    },
+    "interactive_sounds": {
+        "block_sounds": {
+            "candle": {
+            	"events": {
+            		"default": "",
+            		"fall": { "sounds": "step.candle",  "volume": 1.0 },
+            		"step": { "sound": "step.candle" , "volume": 1.0 },
+            		"jump" :{ "sound": "step.candle",  "volume": 1.0 },
+            		"land": { "sound": "step.candle",  "volume": 1.0 } },
+            	"volume": 1.0,
+            	"pitch": 1.0 
+        	}
+        }
+    },
+    "individual_event_sounds": {
+        "events": {
+            "cake.add_candle": {"sound": "cake.add_candle", "volume" : 1.0, "pitch" : 1.0},
+            "extinguish.candle": {"sound": "extinguish.candle", "volume": 1.0, "pitch": 1.0},
+            "ambient.candle": {"sound": "ambient.candle", "volume": 1.0, "pitch": 1.0}
+        }
+    }
+}

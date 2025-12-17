@@ -1,0 +1,9 @@
+﻿## Comments can be added anywhere on a valid line by starting with '##'
+##
+## Note, trailing spaces will NOT be trimmed. If you want room between the end of the string and the start of a
+## comment on the same line, use TABs.
+
+resourcePack.editor.client.description=Düzenleyici İstemci Kaynakları	#
+resourcePack.editor.client.name=Düzenleyici Kaynakları	#
+resourcePack.editor.server.description=Düzenleyici Sunucu Kaynakları	#
+resourcePack.editor.server.name=Düzenleyici Kaynakları	#

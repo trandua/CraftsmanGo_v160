@@ -1,0 +1,107 @@
+{
+    "deep_dark": {
+        "event_name": "music.game.deep_dark",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "swampland": {
+        "event_name": "music.game.swamp_music",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "swampland_mutated": {
+        "event_name": "music.game.swamp_music",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "mangrove_swamp": {
+        "event_name": "music.game.swamp_music",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "bamboo_jungle": {
+        "event_name": "music.game_and_wild_equal_chance",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "bamboo_jungle_hills": {
+        "event_name": "music.game_and_wild_equal_chance",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "birch_forest": {
+        "event_name": "music.game_and_wild_equal_chance",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "birch_forest_hills": {
+        "event_name": "music.game_and_wild_equal_chance",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "roofed_forest": {
+        "event_name": "music.game_and_wild_equal_chance",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "roofed_forest_mutated": {
+        "event_name": "music.game_and_wild_equal_chance",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "forest": {
+        "event_name": "music.game_and_wild_equal_chance",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "flower_forest": {
+        "event_name": "music.game_and_wild_equal_chance",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "jungle": {
+        "event_name": "music.game_and_wild_equal_chance",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "jungle_hills": {
+        "event_name": "music.game_and_wild_equal_chance",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "jungle_mutated": {
+        "event_name": "music.game_and_wild_equal_chance",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "mesa_plateau": {
+        "event_name": "music.game_and_wild_favor_game",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "mega_taiga": {
+        "event_name": "music.game_and_wild_favor_game",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "redwood_taiga_mutated": {
+        "event_name": "music.game_and_wild_favor_game",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "redwood_taiga_hills_mutated": {
+        "event_name": "music.game_and_wild_favor_game",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "birch_forest_mutated": {
+        "event_name": "music.game_and_wild_favor_game",
+        "min_delay": 60,
+        "max_delay": 180
+    },
+    "mesa_plateau_mutated": {
+        "event_name": "music.game_and_wild_favor_game",
+        "min_delay": 60,
+        "max_delay": 180
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "content": [
+        {
+            "path": "biomes_client.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "animations/shield.animation.json"
+        },
+        {
+            "path": "animations/squid.animation.json"
+        },
+        {
+            "path": "animations/trident.animation.json"
+        },
+        {
+            "path": "animations/vindicator.animation.json"
+        },
+        {
+            "path": "animation_controllers/drowned.animation_controllers.json"
+        },
+        {
+            "path": "animation_controllers/shield.animation_controllers.json"
+        },
+        {
+            "path": "animation_controllers/trident.animation_controllers.json"
+        },
+        {
+            "path": "models/entity/husk.geo.json"
+        },
+        {
+            "path": "models/entity/pillager.geo.json"
+        },
+        {
+            "path": "models/entity/vindicator.geo.json"
+        },
+        {
+            "path": "models/entity/vindicator_v1.0.geo.json"
+        },
+        {
+            "path": "models/entity/zombie.geo.json"
+        },
+        {
+            "path": "models/entity/zombie_villager.geo.json"
+        },
+        {
+            "path": "models/entity/zombie_villager.v1.0.geo.json"
+        },
+        {
+            "path": "models/entity/zombie_villager_v2.geo.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        }
+    ]
+}

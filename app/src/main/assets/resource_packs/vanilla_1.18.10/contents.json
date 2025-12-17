@@ -1,0 +1,268 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "animations/axolotl.animation.json"
+        },
+        {
+            "path": "animations/bow.animation.json"
+        },
+        {
+            "path": "animations/player_firstperson.animation.json"
+        },
+        {
+            "path": "animation_controllers/fox.animation_controllers.json"
+        },
+        {
+            "path": "animation_controllers/player.animation_controllers.json"
+        },
+        {
+            "path": "animation_controllers/shield.animation_controllers.json"
+        },
+        {
+            "path": "entity/ender_crystal.entity.json"
+        },
+        {
+            "path": "entity/iron_golem.entity.json"
+        },
+        {
+            "path": "entity/player.entity.json"
+        },
+        {
+            "path": "render_controllers/iron_golem.render_controllers.json"
+        },
+        {
+            "path": "sounds/sound_definitions.json"
+        },
+        {
+            "path": "textures/textures_list.json"
+        },
+        {
+            "path": "textures/blocks/barrel_bottom.png"
+        },
+        {
+            "path": "textures/blocks/carrots_stage3.png"
+        },
+        {
+            "path": "textures/blocks/cartography_table_side1.png"
+        },
+        {
+            "path": "textures/blocks/cartography_table_side2.png"
+        },
+        {
+            "path": "textures/blocks/cartography_table_side3.png"
+        },
+        {
+            "path": "textures/blocks/cartography_table_top.png"
+        },
+        {
+            "path": "textures/blocks/cave_vines_body.png"
+        },
+        {
+            "path": "textures/blocks/cave_vines_body_berries.png"
+        },
+        {
+            "path": "textures/blocks/cocoa_stage_0.png"
+        },
+        {
+            "path": "textures/blocks/cocoa_stage_1.png"
+        },
+        {
+            "path": "textures/blocks/comparator_on.png"
+        },
+        {
+            "path": "textures/blocks/door_iron_upper.png"
+        },
+        {
+            "path": "textures/blocks/door_wood_upper.png"
+        },
+        {
+            "path": "textures/blocks/glass_blue.png"
+        },
+        {
+            "path": "textures/blocks/glass_pane_top.png"
+        },
+        {
+            "path": "textures/blocks/glass_red.png"
+        },
+        {
+            "path": "textures/blocks/grass_path_side.png"
+        },
+        {
+            "path": "textures/blocks/lectern_base.png"
+        },
+        {
+            "path": "textures/blocks/log_big_oak_top.png"
+        },
+        {
+            "path": "textures/blocks/stripped_dark_oak_log.png"
+        },
+        {
+            "path": "textures/entity/armor_stand.png"
+        },
+        {
+            "path": "textures/entity/vindicator.png"
+        },
+        {
+            "path": "textures/entity/witch.png"
+        },
+        {
+            "path": "textures/entity/axolotl/axolotl_wild.png"
+        },
+        {
+            "path": "textures/entity/banner/banner_globe.tga"
+        },
+        {
+            "path": "textures/entity/illager/evoker.png"
+        },
+        {
+            "path": "textures/entity/iron_golem/cracked_high.png"
+        },
+        {
+            "path": "textures/entity/iron_golem/cracked_low.png"
+        },
+        {
+            "path": "textures/entity/iron_golem/cracked_medium.png"
+        },
+        {
+            "path": "textures/entity/iron_golem/cracked_none.png"
+        },
+        {
+            "path": "textures/entity/iron_golem/iron_golem.png"
+        },
+        {
+            "path": "textures/entity/parrot/parrot_blue.png"
+        },
+        {
+            "path": "textures/entity/parrot/parrot_green.png"
+        },
+        {
+            "path": "textures/entity/parrot/parrot_grey.png"
+        },
+        {
+            "path": "textures/entity/parrot/parrot_red_blue.png"
+        },
+        {
+            "path": "textures/entity/parrot/parrot_yellow_blue.png"
+        },
+        {
+            "path": "textures/entity/wither_boss/wither.png"
+        },
+        {
+            "path": "textures/items/boat_acacia.png"
+        },
+        {
+            "path": "textures/items/boat_birch.png"
+        },
+        {
+            "path": "textures/items/boat_dark_oak.png"
+        },
+        {
+            "path": "textures/items/boat_jungle.png"
+        },
+        {
+            "path": "textures/items/boat_oak.png"
+        },
+        {
+            "path": "textures/items/boat_spruce.png"
+        },
+        {
+            "path": "textures/items/campfire.png"
+        },
+        {
+            "path": "textures/items/door_acacia.png"
+        },
+        {
+            "path": "textures/items/door_birch.png"
+        },
+        {
+            "path": "textures/items/door_dark_oak.png"
+        },
+        {
+            "path": "textures/items/door_iron.png"
+        },
+        {
+            "path": "textures/items/door_jungle.png"
+        },
+        {
+            "path": "textures/items/door_spruce.png"
+        },
+        {
+            "path": "textures/items/door_wood.png"
+        },
+        {
+            "path": "textures/items/glow_item_frame.png"
+        },
+        {
+            "path": "textures/items/item_frame.png"
+        },
+        {
+            "path": "textures/items/lodestonecompass_atlas.png"
+        },
+        {
+            "path": "textures/items/lodestonecompass_item.png"
+        },
+        {
+            "path": "textures/items/seeds_beetroot.png"
+        },
+        {
+            "path": "textures/items/seeds_melon.png"
+        },
+        {
+            "path": "textures/items/sign.png"
+        },
+        {
+            "path": "textures/items/sign_acacia.png"
+        },
+        {
+            "path": "textures/items/sign_birch.png"
+        },
+        {
+            "path": "textures/items/sign_crimson.png"
+        },
+        {
+            "path": "textures/items/sign_darkoak.png"
+        },
+        {
+            "path": "textures/items/sign_jungle.png"
+        },
+        {
+            "path": "textures/items/sign_spruce.png"
+        },
+        {
+            "path": "textures/items/sign_warped.png"
+        },
+        {
+            "path": "textures/items/soul_campfire.png"
+        },
+        {
+            "path": "textures/models/armor/diamond_1.png"
+        },
+        {
+            "path": "textures/models/armor/diamond_2.png"
+        },
+        {
+            "path": "textures/models/armor/gold_1.png"
+        },
+        {
+            "path": "textures/models/armor/gold_2.png"
+        },
+        {
+            "path": "textures/persona_thumbnails/basic_clap_thumbnail_0.png"
+        },
+        {
+            "path": "textures/persona_thumbnails/communication_follow_me_thumbnail_0.png"
+        },
+        {
+            "path": "textures/persona_thumbnails/communication_point_thumbnail_0.png"
+        },
+        {
+            "path": "textures/persona_thumbnails/overhead_wave_thumbnail_0.png"
+        }
+    ]
+}

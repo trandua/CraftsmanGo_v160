@@ -1,0 +1,25 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "sounds.json"
+        },
+        {
+            "path": "animations/player_firstperson.animation.json"
+        },
+        {
+            "path": "animations/skeleton.animation.json"
+        },
+        {
+            "path": "animation_controllers/skeleton.animation_controllers.json"
+        },
+        {
+            "path": "entity/stray.entity.json"
+        },
+        {
+            "path": "entity/stray.v1.0.entity.json"
+        }
+    ]
+}

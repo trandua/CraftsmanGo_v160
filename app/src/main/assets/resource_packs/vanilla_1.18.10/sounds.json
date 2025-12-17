@@ -1,0 +1,14 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "iron_golem": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.0 ],
+        "events": {
+          "irongolem.crack": "mob.irongolem.crack",
+          "irongolem.repair": "mob.irongolem.repair"
+        }
+      }
+    }
+  }
+}

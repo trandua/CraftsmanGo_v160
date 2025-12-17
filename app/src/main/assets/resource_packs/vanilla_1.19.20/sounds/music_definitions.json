@@ -1,0 +1,7 @@
+{
+  "basalt_deltas": {
+    "event_name" : "music.game.basalt_deltas",
+    "min_delay": 60,
+    "max_delay": 180
+  }
+}

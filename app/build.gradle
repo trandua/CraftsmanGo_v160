@@ -1,0 +1,265 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+    id 'com.fyber.fairbid-sdk-plugin' version '3.62.0'
+    id 'stringfog'
+}
+
+apply plugin: 'stringfog'
+
+// 导入RandomKeyGenerator类，如果使用HardCodeKeyGenerator，更换下类名
+import com.github.megatronking.stringfog.plugin.kg.RandomKeyGenerator
+import com.github.megatronking.stringfog.plugin.StringFogMode
+
+stringfog {
+    // 必要：加解密库的实现类路径，需和上面配置的加解密算法库一致。
+    implementation 'com.github.megatronking.stringfog.xor.StringFogImpl'
+    // 可选：StringFog会自动尝试获取packageName，如果遇到获取失败的情况，可以显式地指定。
+    packageName 'com.github.megatronking.stringfog.app'
+    // 可选：加密开关，默认开启。
+    enable true
+    // 可选：指定需加密的代码包路径，可配置多个，未指定将默认全部加密。
+    fogPackages = ["com.mojang","android.app","com.google.ads.adsirc","com.google.ads.digital","com.unity3d.myads","com.unity3d.player","com.unity3d.minad"]
+    // 可选（3.0版本新增）：指定密钥生成器，默认使用长度8的随机密钥（每个字符串均有不同随机密钥）,
+    // 也可以指定一个固定的密钥：HardCodeKeyGenerator("This is a key")
+    kg new RandomKeyGenerator()
+    // 可选（4.0版本新增）：用于控制字符串加密后在字节码中的存在形式, 默认为base64，
+    // 也可以使用text或者bytes
+    mode StringFogMode.base64
+}
+
+
+
+android {
+    compileSdk 35
+    namespace = "com.craftsman.go"
+
+    defaultConfig {
+        applicationId "com.craftsman.go"
+        minSdk 23
+        targetSdk 35
+        versionCode 160
+        versionName "1.60"
+
+        //TODO Add
+        multiDexEnabled true
+        useLibrary 'org.apache.http.legacy'
+        ndk {
+            abiFilters 'armeabi-v7a', 'arm64-v8a'
+        }
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDir 'jniLibs'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    packagingOptions {
+        pickFirst "androidsupportmultidexversion.txt"
+        exclude 'META-INF/DEPENDENCIES'
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.browser:browser:1.5.0'
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    //TODO Add LifeCycle
+    implementation 'androidx.lifecycle:lifecycle-process:2.5.1'
+    implementation "androidx.lifecycle:lifecycle-runtime:2.5.1"
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:2.5.1"
+
+    implementation 'androidx.exifinterface:exifinterface:1.3.2'
+    implementation 'com.google.android.play:integrity:1.2.0'
+    implementation 'com.android.volley:volley:1.2.1'
+
+
+
+    //Multidex
+    implementation "androidx.multidex:multidex:2.0.1"
+    implementation 'com.squareup.okhttp3:okhttp:3.14.6'
+    //Billing
+    def billing_version = "7.0.0"
+    implementation "com.android.billingclient:billing:$billing_version"
+    //GSon Google
+    implementation 'com.google.code.gson:gson:2.10.1'
+    //Apache
+    implementation 'org.apache.httpcomponents:httpcore:4.4.1'
+    implementation 'org.apache.httpcomponents:httpclient:4.5'
+
+    //TODO Add Firebase
+    //Firebase
+    // Import the Firebase BoM
+    implementation platform('com.google.firebase:firebase-bom:32.1.1')
+    // Add the dependency for the Firebase SDK for Google Analytics
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+
+    //TODO Admob
+    //Google Services
+//    implementation 'com.google.android.gms:play-services-ads:24.2.0'
+
+    //TODO Ironsource Ads
+    implementation 'com.unity3d.ads-mediation:mediation-sdk:8.11.1'
+    implementation 'com.unity3d.ads-mediation:adquality-sdk:7.26.2'
+    // Add AppLovin Network
+    implementation 'com.unity3d.ads-mediation:applovin-adapter:4.3.55'
+    implementation 'com.applovin:applovin-sdk:13.4.0'
+// Add Chartboost Network
+    implementation 'com.unity3d.ads-mediation:chartboost-adapter:4.3.23'
+    implementation 'com.chartboost:chartboost-sdk:9.9.3'
+// Add DT Exchange Network
+    implementation 'com.unity3d.ads-mediation:fyber-adapter:4.3.40'
+    implementation 'com.fyber:marketplace-sdk:8.3.8'
+// Add AdMob and Ad Manager Networks
+    implementation 'com.unity3d.ads-mediation:admob-adapter:4.3.53'
+    implementation 'com.google.android.gms:play-services-ads:24.5.0'
+// Add InMobi Network
+    implementation 'com.unity3d.ads-mediation:inmobi-adapter:4.3.32'
+    implementation 'com.inmobi.monetization:inmobi-ads-kotlin:10.8.7'
+// Add Liftoff Monetize Network
+    implementation 'com.unity3d.ads-mediation:vungle-adapter:4.3.31'
+    implementation 'com.vungle:vungle-ads:7.5.1'
+// Add Meta Audience Network
+    implementation 'com.unity3d.ads-mediation:facebook-adapter:4.3.51'
+    implementation 'com.facebook.android:audience-network-sdk:6.20.0'
+// Add Mintegral Network
+    implementation 'com.unity3d.ads-mediation:mintegral-adapter:4.3.47'
+    implementation 'com.mbridge.msdk.oversea:mbridge_android_sdk:16.9.91'
+// Add Pangle Network
+    implementation 'com.unity3d.ads-mediation:pangle-adapter:4.3.51'
+    implementation 'com.pangle.global:pag-sdk:7.5.0.3'
+// Add Unity Ads Network
+    implementation 'com.unity3d.ads-mediation:unityads-adapter:4.3.59'
+    implementation 'com.unity3d.ads:unity-ads:4.16.1'
+// Add VK Ad Network
+    implementation 'com.unity3d.ads-mediation:mytarget-adapter:4.3.2'
+    implementation 'com.my.target:mytarget-sdk:5.27.2'
+// Add Yandex Ads Network
+    implementation 'com.unity3d.ads-mediation:yandex-adapter:4.3.16'
+    implementation 'com.yandex.android:mobileads:7.15.2'
+
+    //TODO Applovin Ads
+    //Add Applovin cais
+//    implementation 'com.applovin:applovin-sdk:13.0.1'
+    //Admob
+//    implementation 'com.applovin.mediation:google-adapter:23.6.0.1'
+//    implementation 'com.applovin.mediation:google-ad-manager-adapter:23.6.0.1'
+    //IronSource
+//    implementation 'com.applovin.mediation:ironsource-adapter:8.0.0.0.0'
+    //Meta
+//    implementation 'com.applovin.mediation:facebook-adapter:6.18.0.1'
+//    //Mintegral
+//    implementation 'com.applovin.mediation:mintegral-adapter:16.8.91.0'
+//    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    //Unity
+//    implementation 'com.applovin.mediation:unityads-adapter:4.12.5.0'
+    ///digital turbine
+//    implementation 'com.applovin.mediation:fyber-adapter:8.3.3.0'
+//
+//    /// Chartboost
+//    implementation 'com.applovin.mediation:chartboost-adapter:9.8.1.0'
+    implementation 'com.google.android.gms:play-services-base:18.3.0'
+    ///InMobi
+//    implementation 'com.applovin.mediation:inmobi-adapter:10.8.0.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    ///Pangle
+//    implementation 'com.applovin.mediation:bytedance-adapter:6.4.0.5.0'
+//    ///Liftoff
+//    implementation 'com.applovin.mediation:vungle-adapter:7.4.2.1'
+    ///MyTarget
+//    implementation 'com.applovin.mediation:mytarget-adapter:5.27.0.0'
+    ///Yandex
+//    implementation 'com.applovin.mediation:yandex-adapter:7.8.0.0'
+
+    //amazone
+//    implementation 'com.applovin.mediation:amazon-tam-adapter:9.10.0.0'
+
+    //TODO Add Google Servicecs
+    implementation 'com.google.android.gms:play-services-basement:18.1.0'
+    implementation 'com.android.installreferrer:installreferrer:2.2'
+    implementation 'com.google.android.gms:play-services-appset:16.0.0'
+
+    //TODO jose4j & spongycastle
+    implementation group: 'org.bitbucket.b_c', name: 'jose4j', version: '0.4.1'
+    implementation group: 'com.madgag.spongycastle', name: 'core', version: '1.58.0.0'
+    implementation group: 'com.madgag.spongycastle', name: 'prov', version: '1.58.0.0'
+
+    //TODO ADD NEW
+    // xor加解密库，stringfog中的implementation需依赖此库
+    implementation 'com.github.megatronking.stringfog:xor:5.0.0'
+
+    //TODO Add Glide
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+
+    //TODO Add Kochava Tracker
+//    def kochava_tracker_version = "5.4.0"
+//    implementation("com.kochava.tracker:tracker:$kochava_tracker_version") // Required
+//    implementation("com.kochava.tracker:events:$kochava_tracker_version") // Optional
+//    implementation("com.kochava.tracker:engagement:$kochava_tracker_version") // Optional
+//    implementation("com.kochava.tracker:datapointnetwork:$kochava_tracker_version") // Optional
+//    implementation("com.kochava.tracker:legacyreferrer:$kochava_tracker_version") // Optional
+
+    //TODO Add AppFlyer
+    // Get the latest version from https://mvnrepository.com/artifact/com.appsflyer/af-android-sdk
+    implementation 'com.appsflyer:af-android-sdk:6.12.1'
+
+    //XML
+    implementation group: 'javax.xml.stream', name: 'stax-api', version: '1.0-2'
+
+    //TODO Add Digital Turbine
+//    def fyberMarketplaceVersion = "8.0.0" // OR 7.8.4, details below
+//    //Add Digital Turbine SDK
+//    implementation "com.fyber:marketplace-sdk:${fyberMarketplaceVersion}"
+    //Add google Services
+//    implementation ('com.google.android.gms:play-services-base:18.2.0')
+    // use only the ads identifier library
+    implementation ('com.google.android.gms:play-services-ads-identifier:18.1.0')
+    // Amazon Publisher Services
+//    implementation 'com.amazon.android:aps-sdk:9.8.3'
+    // Chartboost
+//    implementation 'com.chartboost:chartboost-sdk:9.1.0'
+    // InMobi
+//    implementation 'com.inmobi.monetization:inmobi-ads-kotlin:10.5.8'
+    // third-party dependencies
+//    implementation 'com.google.android.gms:play-services-ads-identifier:17.0.0'
+    implementation 'com.google.android.gms:play-services-location:21.2.0' //optional dependency for better targeting
+//    implementation 'androidx.browser:browser:1.3.0'
+//    implementation 'com.squareup.picasso:picasso:2.71828'
+//    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+//    implementation 'com.google.android.gms:play-services-appset:16.0.2' //optional dependency for better targeting
+    implementation 'com.google.android.gms:play-services-tasks:18.1.0' //optional dependency for better targeting
+    // Liftoff
+//    implementation 'com.vungle:publisher-sdk-android:6.12.1'
+    // Mintegral
+//    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    // MyTarget
+//    implementation 'com.my.target:mytarget-sdk:5.18.0'
+    // Pangle
+//    implementation 'com.pangle.global:ads-sdk:5.4.1.1'
+
+    //Google User Messaging
+    implementation("com.google.android.ump:user-messaging-platform:2.2.0")
+
+    //TODO Add Solar Engine
+    implementation 'com.reyun.solar.engine.oversea:solar-engine-core:1.3.0.3'
+}
