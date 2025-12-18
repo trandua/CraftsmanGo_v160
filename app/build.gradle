@@ -111,7 +111,7 @@ dependencies {
 
     //Ironsource Ads
     implementation 'com.unity3d.ads-mediation:mediation-sdk:9.2.0'//8.11.1
-    implementation 'com.unity3d.ads-mediation:adquality-sdk:9.2.0'//7.26.2
+    //implementation 'com.unity3d.ads-mediation:adquality-sdk:9.2.0'//7.26.2
     // Add AppLovin Network
     implementation 'com.unity3d.ads-mediation:applovin-adapter:5.2.0'//4.3.55
     implementation 'com.applovin:applovin-sdk:13.5.1'//13.4.0
@@ -185,6 +185,11 @@ dependencies {
 
     //Solar Engine
     implementation 'com.reyun.solar.engine.oversea:solar-engine-core:1.3.0.3'
+
+    //Add the Boldwin SDK
+    implementation 'com.boldwin.sdk:core:1.15.13'
+    // ironSource Boldwin Adapter
+    implementation 'com.boldwin.sdk:ironsource-adapters:1.15.13'
 }
 
 configurations.all {
