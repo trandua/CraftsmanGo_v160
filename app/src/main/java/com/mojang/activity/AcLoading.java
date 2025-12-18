@@ -100,7 +100,7 @@ public class AcLoading {
                 }catch (Exception _ex){
                 }finally {
                     dismiss();
-                    IronSource.showInterstitial();
+//                    IronSource.showInterstitial();
                 }
             }
         };

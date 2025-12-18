@@ -11,7 +11,7 @@ import com.google.android.gms.ads.AdValue;
 import com.google.android.gms.ads.AdapterResponseInfo;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.firebase.analytics.FirebaseAnalytics;
-import com.ironsource.mediationsdk.impressionData.ImpressionData;
+//import com.ironsource.mediationsdk.impressionData.ImpressionData;
 import com.mojang.minecraftpe.MainActivity;
 import com.reyun.solar.engine.OnAttributionListener;
 import com.reyun.solar.engine.OnInitializationCallback;
@@ -134,45 +134,45 @@ public class SolarEngine {
         //end
         Log.e("TIGG", "Admob: " + seAdImpEventModel.toString());
     }
-    public static void logLevelPlayAdImpression(ImpressionData impressionData, MY_AD_TYPE adType) {
-// The onImpressionSuccess will be reported when the rewarded video and interstitial ad is opened.
-        // For banners, the impression is reported on load success.  Log.d(TAG, "onImpressionSuccess" + impressionData);
-        if (impressionData != null) {
-            Bundle bundle = new Bundle();
-            bundle.putString(FirebaseAnalytics.Param.AD_PLATFORM, "ironSource");
-            bundle.putString(FirebaseAnalytics.Param.AD_SOURCE, impressionData.getAdNetwork());//.adNetwork());
-            bundle.putString(FirebaseAnalytics.Param.AD_FORMAT, impressionData.getAdUnit());
-            bundle.putString(FirebaseAnalytics.Param.AD_UNIT_NAME, impressionData.getInstanceName());
-            bundle.putString(FirebaseAnalytics.Param.CURRENCY, "USD");
-            bundle.putDouble(FirebaseAnalytics.Param.VALUE, impressionData.getRevenue());
-
-            MainActivity.mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.AD_IMPRESSION, bundle);
-
-            //SE SDK processing logic
-            SEAdImpEventModel seAdImpEventModel = new SEAdImpEventModel();
-            //Monetization Platform Name
-            seAdImpEventModel.setAdNetworkPlatform(impressionData.getAdNetwork());
-            //Mediation Platform Name, IronSource SDK set "ironSource"
-            seAdImpEventModel.setMediationPlatform("ironSource");
-            //Displayed Ad Type (Taking Rewarded Ad as an example, adType = 1) For specific details, refer to adType field in the doc
-            seAdImpEventModel.setAdType(adType.getValue());
-            //Monetization Platform App ID (optional) You can input the appKey in SE SDK.
-            seAdImpEventModel.setAdNetworkAppID(APP_KEY);
-            //Monetization Platform Ad Unit ID
-            seAdImpEventModel.setAdNetworkADID(impressionData.getInstanceId());
-            //Ad eCPM
-            seAdImpEventModel.setEcpm(impressionData.getRevenue() * 1000);
-            //Monetization Platform Currency Type (Default USD)
-            seAdImpEventModel.setCurrencyType("USD");
-            //True: rendered success
-            seAdImpEventModel.setRenderSuccess(true);
-            //You can add custom properties as needed. Here we do not give examples.
-            SolarEngineManager.getInstance().trackAdImpression(seAdImpEventModel);
-            //end
-            //Log.e("TIGG", "LevelPlay: " + seAdImpEventModel.toString());
-            showLogInit();
-        }
-    }
+//    public static void logLevelPlayAdImpression(ImpressionData impressionData, MY_AD_TYPE adType) {
+//// The onImpressionSuccess will be reported when the rewarded video and interstitial ad is opened.
+//        // For banners, the impression is reported on load success.  Log.d(TAG, "onImpressionSuccess" + impressionData);
+//        if (impressionData != null) {
+//            Bundle bundle = new Bundle();
+//            bundle.putString(FirebaseAnalytics.Param.AD_PLATFORM, "ironSource");
+//            bundle.putString(FirebaseAnalytics.Param.AD_SOURCE, impressionData.getAdNetwork());//.adNetwork());
+//            bundle.putString(FirebaseAnalytics.Param.AD_FORMAT, impressionData.getAdUnit());
+//            bundle.putString(FirebaseAnalytics.Param.AD_UNIT_NAME, impressionData.getInstanceName());
+//            bundle.putString(FirebaseAnalytics.Param.CURRENCY, "USD");
+//            bundle.putDouble(FirebaseAnalytics.Param.VALUE, impressionData.getRevenue());
+//
+//            MainActivity.mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.AD_IMPRESSION, bundle);
+//
+//            //SE SDK processing logic
+//            SEAdImpEventModel seAdImpEventModel = new SEAdImpEventModel();
+//            //Monetization Platform Name
+//            seAdImpEventModel.setAdNetworkPlatform(impressionData.getAdNetwork());
+//            //Mediation Platform Name, IronSource SDK set "ironSource"
+//            seAdImpEventModel.setMediationPlatform("ironSource");
+//            //Displayed Ad Type (Taking Rewarded Ad as an example, adType = 1) For specific details, refer to adType field in the doc
+//            seAdImpEventModel.setAdType(adType.getValue());
+//            //Monetization Platform App ID (optional) You can input the appKey in SE SDK.
+//            seAdImpEventModel.setAdNetworkAppID(APP_KEY);
+//            //Monetization Platform Ad Unit ID
+//            seAdImpEventModel.setAdNetworkADID(impressionData.getInstanceId());
+//            //Ad eCPM
+//            seAdImpEventModel.setEcpm(impressionData.getRevenue() * 1000);
+//            //Monetization Platform Currency Type (Default USD)
+//            seAdImpEventModel.setCurrencyType("USD");
+//            //True: rendered success
+//            seAdImpEventModel.setRenderSuccess(true);
+//            //You can add custom properties as needed. Here we do not give examples.
+//            SolarEngineManager.getInstance().trackAdImpression(seAdImpEventModel);
+//            //end
+//            //Log.e("TIGG", "LevelPlay: " + seAdImpEventModel.toString());
+//            showLogInit();
+//        }
+//    }
     public static void logMAXAdImpression(MaxAd ad, MY_AD_TYPE adType){
         double revenue = ad.getRevenue(); // In USD
 

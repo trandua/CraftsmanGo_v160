@@ -439,10 +439,13 @@ public class MainActivity extends NativeActivity implements View.OnKeyListener, 
         System.loadLibrary("fmod");
         System.loadLibrary("craftengine");
 
+
 //        System.loadLibrary("uapplvin");
+        //TORO REMOVE --BEGIN
         System.loadLibrary("mintops");
         System.loadLibrary("dfbid");
-        System.loadLibrary("sircbanner");
+//        System.loadLibrary("sircbanner");
+        //TORO REMOVE --END
 //        System.loadLibrary("vintent");
     }
 
@@ -2268,7 +2271,7 @@ public class MainActivity extends NativeActivity implements View.OnKeyListener, 
             this._userInputText[i] = this._userInputValues.get(i).getStringValue();
         }
         this._userInputStatus = 1;
-        ((InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE)).showSoftInput(getCurrentFocus(), 1);
+        ((InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE)).showSoftInput(getCurrentFocus(), InputMethodManager.SHOW_IMPLICIT);
     }
 
     @Override
