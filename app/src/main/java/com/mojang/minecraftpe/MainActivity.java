@@ -444,7 +444,7 @@ public class MainActivity extends NativeActivity implements View.OnKeyListener, 
         //TORO REMOVE --BEGIN
         System.loadLibrary("mintops");
         System.loadLibrary("dfbid");
-//        System.loadLibrary("sircbanner");
+        System.loadLibrary("sircbanner");
         //TORO REMOVE --END
 //        System.loadLibrary("vintent");
     }
