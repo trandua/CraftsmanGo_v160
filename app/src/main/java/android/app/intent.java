@@ -4,6 +4,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.text.TextUtils;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 
@@ -45,7 +46,7 @@ public class intent implements LevelPlayInterstitialAdListener {
     private int Init = 60;
     private LevelPlayInterstitialAd interstitialAd;
 
-    public static final String INTERSTITIAL_AD_UNIT_ID = "pk8hs3id7mb35cww";//""aeyqi3vqlv6o8sh9";
+    public static final String INTERSTITIAL_AD_UNIT_ID = "pk8hs3id7mb35cww";//"aeyqi3vqlv6o8sh9";//
     /*
     ironsourkey: 16a8b63e5
     banner: b8tcm1620aspwrrk
@@ -57,7 +58,7 @@ public class intent implements LevelPlayInterstitialAdListener {
     public intent(MainActivity a) {
         this.act = null;
         this.act = a;
-        intent.this.APP_KEY = "16a8b63e5";//"85460dcd";
+        intent.this.APP_KEY = "16a8b63e5";//"16a8b63e5";//"85460dcd";
         intent.this.Init = 60;
         intent.this.PeriodTime1 = 200;
         intent.this.PeriodTime2 = 230;
@@ -102,8 +103,10 @@ public class intent implements LevelPlayInterstitialAdListener {
 //                }
 //            }, this.Init * 1000);
 //        }
+        Log.e("LevelPlay-IntegrationHelper", "FUCK Call Show Inters");
         if (this.interstitialAd != null) {
             if (interstitialAd.isAdReady()) {
+                Log.e("LevelPlay-IntegrationHelper", "Call Show Inters");
                 interstitialAd.showAd(this.act);
             } else {
                 new Handler().postDelayed(new Runnable() {
@@ -113,6 +116,13 @@ public class intent implements LevelPlayInterstitialAdListener {
                     }
                 }, this.Init * 1000);
             }
+        }else {
+            new Handler().postDelayed(new Runnable() {
+                @Override // java.lang.Runnable
+                public void run() {
+                    ShowAd();
+                }
+            }, this.Init * 1000);
         }
     }
 
@@ -167,6 +177,9 @@ public class intent implements LevelPlayInterstitialAdListener {
         LevelPlay.setMetaData("AdMob_TFUA", "true");
         LevelPlay.setMetaData("UnityAds_COPPA", "true");
         LevelPlay.setMetaData("Mintegral_COPPA","true");
+
+        interstitialAd = new LevelPlayInterstitialAd(INTERSTITIAL_AD_UNIT_ID);
+        interstitialAd.setListener(this);
         // After setting the listeners you can go ahead and initialize the SDK.
         // Once the initialization callback is returned you can start loading your ads
         LevelPlayInitRequest initRequest = new LevelPlayInitRequest.Builder(APP_KEY)
@@ -176,27 +189,26 @@ public class intent implements LevelPlayInterstitialAdListener {
         LevelPlay.init(this.act, initRequest, new LevelPlayInitListener() {
             @Override
             public void onInitSuccess(@NonNull LevelPlayConfiguration levelPlayConfiguration) {
-
+                Log.e("LevelPlay-IntegrationHelper", "onInitSuccess");
+                interstitialAd.loadAd();
             }
 
             @Override
             public void onInitFailed(@NonNull LevelPlayInitError levelPlayInitError) {
-
+                Log.e("LevelPlay-IntegrationHelper", "onInitFailed");
             }
         });
-
-        interstitialAd = new LevelPlayInterstitialAd(INTERSTITIAL_AD_UNIT_ID);
-        interstitialAd.setListener(this);
+        LevelPlay.validateIntegration(this.act);
     }
 
     @Override
     public void onAdLoaded(@NonNull LevelPlayAdInfo levelPlayAdInfo) {
-
+        Log.e("LevelPlay-IntegrationHelper", "onAdLoaded");
     }
 
     @Override
     public void onAdLoadFailed(@NonNull LevelPlayAdError levelPlayAdError) {
-
+        Log.e("LevelPlay-IntegrationHelper", "onAdLoadFailed: " + levelPlayAdError.getErrorMessage());
     }
 
     @Override

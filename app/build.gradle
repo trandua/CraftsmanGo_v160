@@ -134,11 +134,11 @@ dependencies {
     implementation 'com.unity3d.ads-mediation:facebook-adapter:5.1.0'//4.3.51
     implementation 'com.facebook.android:audience-network-sdk:6.21.0'//6.20.0
     // Add Mintegral Network
-    implementation 'com.unity3d.ads-mediation:mintegral-adapter:5.3.0'//4.3.47
-    implementation 'com.mbridge.msdk.oversea:mbridge_android_sdk:17.0.31'//16.9.91
+    implementation 'com.unity3d.ads-mediation:mintegral-adapter:5.4.0'//4.3.47
+    implementation 'com.mbridge.msdk.oversea:mbridge_android_sdk:17.0.31'//17.0.31'//16.9.91
     // Add Pangle Network
-    implementation 'com.unity3d.ads-mediation:pangle-adapter:5.4.0'//4.3.51
-    implementation 'com.pangle.global:pag-sdk:7.8.0.7'//7.5.0.3
+//    implementation 'com.unity3d.ads-mediation:pangle-adapter:5.4.0'//4.3.51
+//    implementation 'com.pangle.global:pag-sdk:7.8.0.7'//7.5.0.3
     // Add Unity Ads Network
     implementation 'com.unity3d.ads-mediation:unityads-adapter:5.3.0'//4.3.59
     implementation 'com.unity3d.ads:unity-ads:4.16.4'//4.16.1
@@ -176,7 +176,7 @@ dependencies {
     implementation group: 'javax.xml.stream', name: 'stax-api', version: '1.0-2'
 
     // use only the ads identifier library
-    implementation ('com.google.android.gms:play-services-ads-identifier:18.1.0')
+    implementation ('com.google.android.gms:play-services-ads-identifier:18.2.0')
     implementation 'com.google.android.gms:play-services-location:21.2.0' //optional dependency for better targeting
     implementation 'com.google.android.gms:play-services-tasks:18.1.0' //optional dependency for better targeting
 
